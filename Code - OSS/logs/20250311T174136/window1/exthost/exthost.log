@@ -1,0 +1,11 @@
+2025-03-11 17:41:38.973 [info] Extension host with pid 25824 started
+2025-03-11 17:41:38.973 [info] Skipping acquiring lock for /home/mario/.config/Code - OSS/User/workspaceStorage/c2916e6299056e7d4e391130e0a57ed3.
+2025-03-11 17:41:39.164 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-03-11 17:41:39.400 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-11 17:41:39.411 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-11 17:41:39.600 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-11 17:41:39.742 [info] Eager extensions activated
+2025-03-11 17:41:39.780 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-11 17:41:39.783 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-11 18:13:01.493 [info] Extension host terminating: renderer closed the MessagePort
+2025-03-11 18:13:01.503 [info] Extension host with pid 25824 exiting with code 0

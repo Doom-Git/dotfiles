@@ -1,0 +1,890 @@
+clear
+ls -la
+cat inputrc
+cat .inputrc
+vim .bashrc
+sudo xbps-install -S dumb_runtime_dir
+clear
+sudo xbps-install -S rtkit
+sudo xbps-install -S xdg-desktop-portal
+mkdir $XDG_CONFIG_HOME/autostart
+exit
+bash
+exit
+sudo shutdown
+fastfetch
+ping voidlinux.org
+pulseaudio --daemonize=no --exit-idle-time=-1
+bsh
+clear
+vim .bashrc
+bash
+exit
+bash
+logout
+exit
+clear
+ls -la
+nvim .bashrc
+source .bashrc
+nvim .bashrc
+bash
+source .bashrc
+exit
+bash
+exit
+fast
+fastfetch
+clear
+shutdown
+sudo shutdown -h now
+config nu
+nvim .config/nushell/config.nu
+config nu
+exit
+config nu
+clear
+exit
+clear
+config nu
+exit
+nvim .bashrc
+config nu
+exit
+pipes
+pipes.sh
+pipes.sh -t 3
+config nu
+la
+pi
+config nu
+exit
+pi
+pi3
+la
+la .config
+mc
+clear
+sudo xbps-install polybar
+clear
+nvim .config/i3/config
+cd .local/state/nvim/
+ls
+cd swap/
+ls
+rm -rf %home%mario%.config%i3%config.swp
+cd
+nvim .config/i3/config
+polybar
+sudo logout
+exit
+bash
+exit
+clear
+fastfetch
+clear
+nvim .bashrc
+config nu
+clear
+nvim polybar.sh
+sudo xbps-install -S polybar
+sudo xbps-install -Suy
+nvim .config/polybar/config.ini
+ls .config/
+touch .config/polybar/config.ini
+mkdir .config/polybar
+touch .config/polybar/config.ini
+nvim .config/polybar/config.ini
+touch launch_polybar.sh
+nvim launch_polybar.sh
+config nu
+clear
+confi3
+mkdir .poly
+mv launch_polybar.sh .poly/
+ls
+cat polybar.sh
+ls .poly/
+cat .poly/launch_polybar.sh
+rm -rf polybar.sh
+clear
+confpoly
+./.poly/launch_polybar.sh
+exit
+clear
+confpoly
+cd ..
+confpoly
+config nu
+clear
+confpoly
+ls
+la
+nvim .poly/launch_polybar.sh
+killall
+man killall
+sudo xbps-install -S killall
+mv .poly/launch_polybar.sh .config/polybar/polybar.sh
+rm -rf .poly
+confi3
+nvim .config/polybar/polybar.sh
+confpoly
+clear
+i3exit
+exit
+clear
+./.config/polybar/polybar.sh
+sudo nvim /etc/polybar/config.ini
+nvim .config/polybar/polybar.sh
+./.config/polybar/polybar.sh
+sudo nvim /etc/polybar/config.ini
+clear
+confpoly
+ls .config/polybar/config.ini
+sudo nvim /etc/polybar/config.ini
+./.config/polybar/polybar.sh
+sudo nvim /etc/polybar/config.ini
+./.config/polybar/polybar.sh
+nvim .config/polybar/polybar.sh
+./.config/polybar/polybar.sh
+nvim .config/polybar/polybar.sh
+./.config/polybar/polybar.sh
+nvim .config/polybar/polybar.sh
+polybar voidbar
+confpoly
+polybar voidbar
+sudo setxkbmap -layout de
+clear
+sudo nvim /etc/polybar/config.ini
+ls
+cat test.txt
+polybar voidbar
+confpoly
+polybar voidbar
+clear
+confpoly
+polybar voidbar
+confpoly
+polybar voidbar
+clear
+htop
+nvim .config/polybar/polybar.sh
+polybar voidbar &
+polybar voidbar -r
+clear
+confpoly
+nvim .config/polybar/polybar.sh
+polybar voidbar -r
+confi3
+exit
+clear
+confi3
+clear
+sudu setxkbmap -layout de
+sudo setxkbmap -layout de
+confi3
+sudo nvim /etc/rc.conf
+sudo nvim /etc/rc.local
+sudo nvim /etc/rc.conf
+loadkeys -listkeys
+locale
+clear
+loadkeys de-latin1-nodeadkeys
+loadkeys de
+sudo xbps-install -Su spotify-tui
+sudo xbps-remove spotify-tui
+sudo xbps-remove -xf
+sudo xbps-remove -of
+clear
+sudo xbps-install -S pywal
+sudo xbps-install -S calc networkmanager_dmenu
+sudo xbps-install -S calc
+clear
+git clone --depth=1 https://github.com/adi1090x/polybar-themes.git
+cd polybar-themes/
+chmod +x setup.sh
+./setup.sh
+cd
+bash ./.config/polybar/launch.sh
+bash ./.config/polybar/launch.sh --forest
+pkill -v
+clear
+nvim .config/polybar/launch.sh
+bash ./.config/polybar/launch.sh --forest
+man pkill
+pkill -exact polybar
+pkill -x polybar
+nvim .config/polybar/launch.sh
+bash ./.config/polybar/launch.sh --forest
+sudo bash ./.config/polybar/launch.sh --forest
+ls
+ls polybar-themes/
+ls polybar-themes/bitmap/
+ls polybar-themes/bitmap/forest/
+cd polybar-themes/bitmap/forest/
+clear
+ls
+nvim config.ini
+ls
+cd ../..
+ls
+ls simple/
+cp forest ../forest_theme_backup
+cp simple/forest ../forest_theme_backup
+cp ./simple/forest ../forest_theme_backup
+cp -r ./simple/forest ../forest_theme_backup
+cd ..
+ls
+rm -rf polybar-themes/
+clear
+cd .config/
+ls
+ls rncbc.org/
+rm -rf rncbc.org/
+rm -rf polybar/
+mv polybar.old/ polybar
+ls
+ls polybar/
+mv ../forest_theme_backup/ ./polybar/
+cd polybar/
+cd .config/polybar/forest_theme_backup/
+clear
+ls
+clear
+ls
+ls scripts/
+cat scripts/powermenu.sh
+ls scripts/rofi/
+ls
+cd ..
+ls
+cd ..
+ls
+la
+rm -rf test.txt
+la .config/
+mkdir .config/wezterm
+touch .config/wezterm/config.lua
+nvim .config/wezterm/config.lua
+config nu
+nvim .config/nushell/config.nu
+clear
+cd .config/wezterm/
+mv config.lua wezterm.luals
+mv wezterm.luals wezterm.lua
+ls
+bash
+nvim modules.ini
+nvim .config/wezterm/wezterm.lua
+bash
+nvim .config/wezterm/wezterm.lua
+ls
+la
+mc
+ls
+clear
+ls Downloads/
+locale
+sudo setxkbmap -layout de
+config nu
+clear
+ls
+kbmap
+kmap
+setxkbmap -layout de
+config nu
+clear
+wezterm imgcat --no-preserve-aspect-ratio Downloads/wallhaven-p2l61j_2560x1440.png
+clear
+wezterm imgcat Downloads/wallhaven-p2l61j_2560x1440.png
+clear
+config nu
+clear
+wimg Downloads/wallhaven-p2l61j_2560x1440.png
+clear
+ls Downloads/
+mv Downloads/wallhaven-p2l61j_2560x1440.png Downloads/Mob_Dimpel.png
+mv Downloads/wallhaven-yxy57k_2560x1440.png Downloads/Glas_Eye.png
+wimg Downloads/Glas_Eye.png
+bash
+kmap
+sudo xbps-remove calc pyware
+sudo xbps-remove -of
+clear
+sudo xbps-install -S feh
+mv Downloads/* Wallpaper
+mkdir Wallpaper/Mob_Psycho
+mv Downloads/Mob_Dimpel.png Wallpaper/Mob_Psycho/
+mv Downloads/Glas_Eye.png Wallpaper/
+clear
+feh --bg-scale --zoom fill ./Wallpaper/Mob_Psycho/Mob_Dimpel.png
+touch .fehbg
+kmap
+clear
+chmod +x .fehbg
+ls
+la
+clear
+ls Wallpaper/
+nvim .fehbg
+clear
+./.fehbg
+nvim .fehbg
+./.fehbg
+cd Wallpaper/
+mkdir 1920x1080
+xrandr
+mkdir 2560x1440
+cp 1920x1080/ Mob_Psycho/
+cp -r 1920x1080/ Mob_Psycho/
+cp -r 2560x1440/ Mob_Psycho/
+mv Glas_Eye.png 2560x1440/
+mv Mob_Psycho/Mob_Dimpel.png Mob_Psycho/2560x1440/
+cd ../Downloads/
+ls
+mv wallhaven-x6v11l_1920x1080.png Shrek_with_cat.png
+mv Shrek_with_cat.png ../Wallpaper/1920x1080/
+nvim .fehbg
+./.fehbg
+nvim .fehbg
+./.fehbg
+bash
+cd
+confi3
+clear
+ls
+ls Downloads/
+ls /etc/font*
+ls /etc/fonts/
+cat /etc/fonts/fonts.conf
+clear
+sudo mv Downloads/IosevkaNerdFont-Regular.ttf /usr/share/fonts/
+fc-conflist
+/usr/share/fonts/IosevkaNerdFont-Regular.ttf
+sudo chmod +x /usr/share/fonts/IosevkaNerdFont-Regular.ttf
+clear
+confi3
+nvim .config/wezterm/wezterm.lua
+ls Downloads/
+chmod +x Downloads/IosevkaNerdFontMono-Regular.ttf
+sudo mv Downloads/IosevkaNerdFontMono-Regular.ttf /usr/share/fonts/
+/usr/share/fonts/IosevkaNerdFontMono-Regular.ttf
+/usr/share/fonts/IosevkaNerdFontMono-Regular.tt
+/usr/share/fonts/IosevkaNerdFontMono-Regular.ttf
+confi3
+nvim .config/wezterm/wezterm.lua
+bash
+nvim .config/wezterm/wezterm.lua
+ls Downloads/
+sudo xbps-install -S unzip
+unzip Downloads/VictorMonoAll.zip
+ls Downloads/
+ls
+ls EOT/
+rm -rf EOT/
+rm -rf WOFF*
+rm -rf OTF
+ls
+cd TTF/
+clear
+ls *Regular*
+mv VictorMono-Regular.ttf /usr/share/fonts/
+sudo mv VictorMono-Regular.ttf /usr/share/fonts/
+sudo chmod +x /usr/share/fonts/VictorMono-Regular.ttf
+/usr/share/fonts/VictorMono-Regular.ttf
+fc-cache
+nvim .config/wezterm/wezterm.lua
+cd
+nvim .config/wezterm/wezterm.lua
+clear
+fastfetch --logo-type
+fastfetch -l Downloads/Void_Logo.jpg
+fastfetch --pipe false -l Downloads/Void_Logo.jpg
+fastfetch -l $HOME/Downloads/Void_Logo.jpg
+fastfetch -l ./Downloads/Void_Logo.jpg
+sudo xbps-install -S libsixel
+clear
+img2sixel ./Downloads/Void_Logo.jpg > Void_Logo.sixel
+exit
+clear
+sudo xbps-install -S libsixel
+man libsixel
+./img2sixel Downloads/Void_Logo.jpg
+sudo xbps-remove libsixel
+sudo xbps-install -Su libsixel-util
+clear
+img2sixel ./Downloads/Void_Logo.jpg > Void_Logo.sixel
+ls
+cat Void_Logo.sixel && echo END
+cat Void_Logo.sixel and echo END
+cat Void_Logo.sixel ; echo END
+clear
+fastfetch --raw Void_Logo.sixel
+wimg Void_Logo.sixel
+fastfetch --raw Void_Logo.sixel --logo-width 100 --logo-height 100
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 100 --logo-height 100
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 10 --logo-height 10
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 30 --logo-height 30
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 50 --logo-height 25
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 55 --logo-height 22
+config nu
+sudo shutdown -h now
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 65 --logo-height 22
+fastfetch --logo Downloads/Void_Logo.jpg --logo-type kitty-direct --logo-width 75 --logo-height 22
+config nu
+ls .config/
+mkdir .config/fastfetch
+fastfetch --gen-config
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+config nu
+ff
+config nu
+ff
+nvim .config/fastfetch/config.jsonc
+ls Downloads/
+ff
+kmap
+clear
+nvim .config/fastfetch/config.jsonc
+ff
+config nu
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+config nu
+nvim .config/fastfetch/config.jsonc
+ff
+ls
+ff
+ls
+clear
+config nu
+fastfetch
+ff
+config nu
+ff
+nvim .config/fastfetch/config.jsonc
+bash
+clear
+ff
+config nu
+fastfetch
+nvim .config/fastfetch/config.jsonc
+fastfetch
+nvim .config/fastfetch/config.jsonc
+fastfetch
+nvim .config/fastfetch/config.jsonc
+fastfetch
+nvim .config/fastfetch/config.jsonc
+fastfetch
+nvim .config/fastfetch/config.jsonc
+fastfetch
+nvim .config/fastfetch/config.jsonc
+mv Downloads/Void_Logo.jpg .config/fastfetch/
+fastfetch
+nvim .config/fastfetch/config.jsonc
+config nu
+nvim .config/fastfetch/config.jsonc
+ff
+config nu
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+nvim .config/fastfetch/config.jsonc
+ff
+clear
+git clone https://github.com/prcxzm/polybar-themes.git
+cd polybar-themes/
+ls
+mv midnight/ ../
+ls
+cd ..
+rm -rf polybar-themes/
+cd midnight/
+ls
+mv colors.ini ../.config/polybar/
+mv */ ../.config/polybar/
+ls
+cd ..
+rm -rf midnight/
+cd .config/polybar/
+ls
+rm -rf forest_theme_backup/
+rm -rf launch.sh
+nvim config.ini
+ls
+cat polybar.sh
+./polybar.sh
+bash
+qkill -x polybar
+pkill -x polybar
+config nu
+bash
+config nu
+nvim .config/polybar/config.ini
+ls Downloads/
+unzip Downloads/JetBrainsMono.zip
+ls 
+ls *Regular*
+sudo mv JetBrainsMonoNerdFont-Regular.ttf /usr/share/fonts/
+fc-cache
+cd .config/polybar/
+./polybar.sh
+bash
+clear
+ls
+rm -rf JetBrains*
+rm -rf LICENSE.txt
+rm -rf Void_Logo.sixel
+rm -rf OFL.txt
+ls
+cat README.md
+rm -rf README.md
+clear
+ls
+ls TTF/
+rm -rf TTF/
+ls Downloads/
+rm -rf Downloads/*.zip
+ls Downloads/
+sudo mv Downloads/MaterialIcons-Regular.ttf /usr/share/fonts/
+fc-cache
+confpoly
+mkdir font_git ; cd font_git
+git clone https://codeberg.org/beastie/st.git
+ls
+cd st
+ls
+sudo make clean install
+ls
+cd
+sudo reboot
+cd .config/polybar/
+ls
+nvim polybar.sh
+xrandr --query
+clear
+nvim polybar.sh
+exit
+xrandr --query | grep connected | cut -d" " -f1
+xrandr --query | grep "connected" | cut -d" " -f1
+xrandr --query | grep -w "connected" | cut -d" " -f1
+nvim polybar.sh
+./polybar.sh
+bash
+nvim .bashrc
+config nu
+bash
+config nu
+clear
+exit
+cd .config/polybar/
+clear
+ls
+nvim colors.ini
+clear
+cd .config/polybar/
+nvim colors.ini
+nvim modules.ini
+ls
+mkdir backup;mv * ./backup/
+mkdir backup;mv *.* ./backup/
+mkdir backup;mv *.ini ./backup/
+ls
+ls backup/
+clear
+ls
+cd backup/
+ls
+cd ..
+clear
+mv /backup/* .
+ls
+mv /backup/** .
+ls
+cd backup/
+mv * ..
+ls
+cd ..
+ls
+rm -rf backup/
+clear
+./.config/polybar/polybar.sh
+clear
+nvim .config/polybar/colors.ini
+nvim .config/polybar/config.ini
+cd
+clear
+sudo xbps-install -Suy
+ff
+clear
+ff
+clear
+sudo xbps-install meson ninja
+sudo xbps-install libx11 libx11-xcb xproto xcb util
+sudo xbps-install libconfig-dev libdbus-1-dev libegl-dev libev-dev libgl-dev libepoxy-dev libpcre2-dev libpixman-1-dev libx11-xcb-dev libxcb1-dev libxcb-composite0-dev libxcb-damage0-dev libxcb-glx0-dev libxcb-image0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-util-dev libxcb-xfixes0-dev meson ninja-build uthash-dev
+sudo xbps-install libx11-devel
+sudo xbps-install libX11-devel
+clear
+git clone --depth=1 https://github.com/void-linux/void-packages
+cd void-packages/
+./xbps-src binary-bootstrap
+clear
+echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf
+exit
+clear
+mv picom-ibhagwan-template ./srcpkgs/picom-ibhagwan
+ls
+./xbps-src pkg picom-ibhagwan
+cd void-packages/
+./xbps-src pkg picom-ibhagwan
+mv ../srcpkgs/ .
+mv -f ../srcpkgs/ .
+cd
+mv srcpkgs/ void-packages/
+rm -rf srcpkgs/
+cd void-packages/
+git clone https://github.com/ibhagwan/picom-ibhagwan-template
+ls
+mv picom-ibhagwan-template/ srcpkgs/
+./xbps-src pkg picom-ibhagwan
+mv srcpkgs/picom-ibhagwan-template/ srcpkgs/picom-ibhagwan
+ls
+ls srcpkgs/picom*
+./xbps-src pkg picom-ibhagwan
+sudo xbps-install --repository=hostdir/binpkgs picom-ibhagwan
+picom
+cd
+clear
+mkdir .config/picom
+touch .config/picom/config
+mv .config/picom/config .config/picom/picom.conf
+nvim .config/picom/picom.conf
+picom --config ~/.config/picom/picom.conf
+clear
+nvim .config/picom/picom.conf
+bash
+clear
+config nu
+clear
+shutdown
+clear
+ls
+clear
+ff
+clear
+kmap
+confi3
+ping voidlinux.org
+xrandr --query | grep -w "connected" | cut -d" " -f1
+confi3
+ls
+la
+rm -rf .jackdrc
+clear
+./.config/polybar/polybar.sh
+clear
+ping voidlinux.org
+sudo reboot
+ping voidlinux.org
+clear
+ff
+nvim .config/picom/picom.conf
+picom --config ~/.config/picom/picom.conf
+nvim .config/picom/picom.conf
+picom --config ~/.config/picom/picom.conf
+confi3
+bash
+confi3
+clear
+clear
+ff
+confi3
+cava
+clear
+ls
+ls Downloads/
+tar -xf Downloads/mullvad-browser-linux-x86_64-14.0.4.tar.xz
+ls Downloads/mullvad-browser-linux-x86_64-14.0.4.tar.xz
+ls Downloads/
+ls
+ls mullvad-browser/
+ls mullvad-browser/Browser/
+./mullvad-browser/start-mullvad-browser.desktop
+clear
+ls
+rm -rf mullvad-browser/
+cd Downloads/
+tar -xvf mullvad-browser-linux-x86_64-14.0.4.tar.xz
+cd mullvad-browser/
+./start-mullvad-browser.desktop
+sudo xbps-query mullvad
+sudo xbps-query mull
+sudo xbps-query m
+sudo xbps-install -Su
+sudo xbps-query -Rs mull
+sudo xbps-query -Rs m
+sudo xbps-query -Rs mu
+sudo xbps-query -Rs mul
+sudo xbps-query -Rs mull
+clear
+sudo xbps-query -Rs Mull
+sudo xbps-query -Rs browser
+clear
+cd
+cp ~/Downloads/mullvad-browser/start-mullvad-browser.desktop ~/.local/share/applications/
+wimg Downloads/wallhaven-yxd8jk_1920x1080.png
+clear
+mv Downloads/wallhaven-yxd8jk_1920x1080.png Wallpaper/1920x1080/Trainstation.png
+clear
+rm -rf Downloads/mullvad-browser-linux-x86_64-14.0.4.tar.xz
+clear
+mv Downloads/mullvad-browser/ ..
+mv -r ./ Downloads/mullvad-browser/ ..
+mv  ./ Downloads/mullvad-browser/ ..
+mv  / Downloads/mullvad-browser/ ..
+mv  /Downloads/mullvad-browser/ ..
+ls
+mv ./Downloads/mullvad-browser/ ../
+clear
+ls
+cd Downloads/
+ls
+mv mullvad-browser/ ..
+cd
+clear
+nvim .fehbg
+./.fehbg
+clear
+nvim .config/wezterm/wezterm.lua
+bash
+nvim .config/wezterm/wezterm.lua
+clear
+ls
+ls .config/
+cat .config/QtProject.conf
+cat .config/mimeapps.list
+clear
+ls /etc/lig*
+nvim /etc/lightdm/lightdm-gtk-greeter.conf
+cler
+clear
+mv Downloads/wallhaven-vqwop5_2560x1440.png Wallpaper/2560x1440/Castlevania_castle.png
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+clear
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+clear
+sudo cp ./Wallpaper/2560x1440/Castlevania_castle.png /usr/share/pixmaps/
+nvim /etc/lightdm/lightdm-gtk-greeter.conf
+sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+clear
+confpoly
+mv Downloads/wallhaven-l85wvq_2560x1440.png Wallpaper/2560x1440/Pirate_Green.png
+kmap
+ls
+ls Wallpaper/**
+ls Wallpaper/**/**
+ls Wallpaper/**/**/
+ls Wallpaper/
+tree
+tre
+sudo xbps-install -Su
+sudo xbps-install tree
+tree Wallpaper/
+mv Downloads/wallhaven-3ld3z6_2560x1440.png Wallpaper/2560x1440/Doom_the_dark_ages.png
+mv Downloads/wallhaven-k78g87_2560x1440.png Wallpaper/2560x1440/Doom_logo.png
+clear
+tree Wallpaper/
+shutdown
+clear
+exit
+clear
+iwctl
+ping void-packages/
+ping voidlinux.org
+clear
+exit
+nu
+clear
+nu
+sudo ani-cli -U
+clear
+ani-cli -U
+nu
+clear
+confpoly
+cd .config/polybar/
+ls
+nvim polybar.sh
+./polybar.sh
+nvim polybar.sh
+nu
+cd .config/polybar/
+clear
+nvim polybar.sh
+nvim test.txt
+tac --help
+echo "hello\ntest"
+"hello\ntest" | tac
+exit
+bash
+clear
+nvim .config/polybar/polybar.sh
+cat .config/polybar/polybar.sh
+xrandr --query | grep -w connected | cut -d" " -f1 | tac
+xrandr --query | grep -w connected | cut -d" " -f1
+nvim .config/polybar/polybar.sh
+./polybar.sh
+cd .config/polybar/
+./polybar.sh
+htop
+clear
+btop
+confi3
+nvim .config/polybar/polybar.sh
+cd .config/polybar/
+./polybar.sh
+fastfetch 
+clear
+nvim .config/fastfetch/config.jsonc
+nu
+nvim .config/fastfetch/config.jsonc
+clear
+confnu
+config nu
+nvim .config/fastfetch/config.jsonc
+nu
+sudo xbps-install -Suy
+clear
+nvim .config/fastfetch/config.jsonc
+config nu
+ls
+ls -la
+nvim .bashrc
+nu
+btop
+exit

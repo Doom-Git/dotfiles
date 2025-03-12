@@ -1,0 +1,6 @@
+2025-03-10 13:26:17.540 [info] Started local extension host with pid 26114.
+2025-03-10 13:26:17.607 [info] Started initializing default profile extensions in extensions installation folder. file:///home/mario/.vscode-oss/extensions
+2025-03-10 13:26:17.917 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/mario/.vscode-oss/extensions
+2025-03-10 13:26:21.197 [info] [perf] Render performance baseline is 122ms
+2025-03-10 13:26:55.819 [info] Started local extension host with pid 26224.
+2025-03-10 13:26:58.711 [info] [perf] Render performance baseline is 118ms
