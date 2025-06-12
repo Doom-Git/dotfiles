@@ -7,7 +7,6 @@
 - [x] Peaclock
 - [x] Htop
 - [x] Keepassxc
-- [x] Dconf
 - [x] Gimp
 - [x] P10k
 - [x] glib
