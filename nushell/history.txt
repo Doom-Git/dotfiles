@@ -1670,3 +1670,8 @@ cd ../slstatus/
 rm -rf .git
 cd
 cd .config/
+git add .
+git commit -m "added ncmpcpp/mpd, added suckless tools, pipewire config"
+sudo xbps-remove fontforge
+git rm fontforge/
+git rm -r fontforge/
