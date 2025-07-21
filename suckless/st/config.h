@@ -124,8 +124,14 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#080F0B", /* default background colour */
 };
+
+/* Background color codes to switch from
+  -#080B0F: Blaue Richtung
+  -#080F0B: Grüne Richtung
+  -#0C0D0C: Grün, aber mehr Neutral
+*/
 
 
 /*

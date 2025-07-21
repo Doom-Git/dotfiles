@@ -1,0 +1,1672 @@
+htop
+exit
+ls
+cat
+cat packages.txt
+bat packages.txt
+exit
+clear
+exit
+sudo xbps-remove zsh
+sudo xbps-remove -of
+clear
+config nu
+$env.EDITOR=nvim
+$env.EDITOR="nvim"
+$env.EDITOR= "nvim"
+$env.EDITOR='nvim'
+set $env.EDITOR="nvim"
+echo $nu.config-path
+nvim .config/nushell/config.nu
+config nu
+source .config/nushell/config.nu
+nvim .config/nushell/config.nu
+source .config/nushell/config.nu
+nvim .config/nushell/env.nu
+config nu
+source .config/nushell/env.nu
+nvim .config/nushell/env.nu
+source .config/nushell/env.nu
+config nu
+source .config/nushell/env.nu
+nvim .config/nushell/env.nu
+source .config/nushell/env.nu
+config nu
+clear
+exit
+nu
+exit
+nu
+exit
+nu
+nvim .bashrc
+clear
+nvim .config/suckless/dwm/config.def.h
+nvim .zshrc
+clear
+config nu
+clear
+config nu
+exit
+clear
+nvim .config/tmux/tmux.conf
+tmux-source .config/tmux/tmux.conf
+exit
+tmux source-file .config/tmux/tmux.conf
+nvim
+nvim packages.txt
+exit
+tmux
+nvim
+config nu
+ls .local/share/nvim/
+ls .local/state/nvim/swap/
+rm -rf .local/state/nvim/swap/%home%mario%.config%nushell%config.nu.swp
+nvim
+config nu
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim ; nvim
+clear
+ls
+la
+cd .config/nvim/
+rm -rf .git/
+ls
+v
+tmux
+tmux kill-server
+v
+tmux
+htop
+v
+v .config/nvim/init.lua
+cd .config/nvim/
+ls
+cd lua/
+ls
+clear
+ls
+ls plugins/
+nvim plugins/init.lua
+nvim chadrc.lua
+clear
+exit
+v
+shut
+exit
+setxkbmap de
+sudo reboot
+exit
+shut
+exit
+flatpak -l
+flatpak --list
+flatpak --help
+flatpak list
+wpa_cli
+ping voidlinux.org
+clear
+rfkill
+install
+sudo xbps-remove -of
+install bluez
+ln -s /etc/sv/bluetoothd /var/service/ 
+sudo ln -s /etc/sv/bluetoothd /var/service/ 
+sv up bluetoothd
+sudo sv up bluetoothd
+reboot
+sudo reboot
+exit
+sv status bluetoothd
+sudo sv status bluetoothd
+sv up bluetoothd
+sudo sv up bluetoothd
+bluetoothctl
+bluetoothd
+nvim /etc/bluetooth/main.conf
+nvim /etc/bluetooth/input.conf
+install bluez-utils
+sudo xbps-install -S bluez-utils
+sudo sv start bluetoothd
+bluetoothctl
+sv status dbus
+sv status d-bus
+sv enable dbus
+sudo ln -s /etc/sv/dbus /var/service
+sudo sv start dbus
+bluetoothctl
+clear
+ls .config/nvim/
+cat .config/nvim/init.lua
+cd .config/nvim/
+ls
+cd lua/
+ls
+cd plugins/
+ls
+nvim init.lua
+cd ..
+nvim chadrc.lua
+ls configs/
+nvim configs/lspconfig.lua
+cd
+clear
+sudo xbps-install -S whiskers
+cargo install catppuccin-whiskers
+ls
+cargo remove whiksers
+cargo uninstall whiskers
+cargo uninstall catppuccin-whiskers
+git clone https://github.com/catppuccin/nushell.git
+clear
+ls
+cd nushell/
+just build
+cargo install catppuccin-whiskers
+just build
+source ~/catppuccin_mocha.nu
+ls
+ls themes/
+source themes/catppuccin_mocha.nu
+ls
+exit
+mv nushell/themes/catppuccin_mocha.nu .
+source catppuccin_mocha.nu
+ls
+cat catppuccin_mocha.nu
+nvim .config/nushell/config.nu
+ls
+aclear
+clear
+ls
+mv catppuccin_mocha.nu catppuccin_mocha.nu.bak
+ls
+mv catppuccin_mocha.nu.bak catppuccin_mocha.nu
+ls
+clear
+mv nushell/ testshell
+rm -rf testshell/
+clear
+ls
+cat packages.txt
+rm -rf packages.txt
+clear
+ls
+ani-cli black clover
+nvim .fehbg
+ani-cli black clover
+ping voidlinux.org
+clear
+ls
+ls Downloads/
+cd Downloads/
+ls compressed.zip
+uzip compressed.zip
+unzip compressed.zip
+rm -rf compressed.zip
+ls
+rm -rf *.svg
+unzip pdf24_converted.zip
+clear
+cd ../.config/suckless/dwm/
+nvim config.def.h
+cd ..
+git clone https://git.suckless.org/slstatus
+ls
+cd slstatus/
+nvim ~/.config/nushell/config.nu
+mi
+cd
+cd .config/suckless/dwm/
+mi
+la
+la | name
+la | where name
+la | col name
+la | column name
+la | column 1
+la | where dwm
+la | where name
+la | where "dwm"
+clear
+sudo reboot
+exit
+mv dwm-status2d-6.3.diff .config/suckless/patches/dwm/
+cd .config/suckless/dwm/
+cd ..
+cp dwm dwm_backup
+cp -r dwm dwm_backup
+cd dwm
+patch -p1 < ../patches/dwm/dwm-status2d-6.3.diff
+exit
+ls
+rm -rf <*
+ls
+nvim dwm.c.rej
+rm -rf dwm.c.*
+ls
+mi
+ls
+exit
+cd .config/suckless/slstatus/
+nvim config.h
+la
+chmod +w *
+sudo chmod +w *
+nvim config.h
+mi
+make
+sudo make clean install
+cd ..
+rm -rf dwm_backup/
+cd dwm/
+sudo make clean install
+clear
+exit
+cd .config/suckless/slstatus
+ls
+ls components/
+nvim components/ram.c
+cd ../dwm
+nvim config.h
+cd .config/suckless/slstatus
+nvim config.mk
+sudo make clean install
+cd ../dwm
+nvim dwm.c
+cd ..
+cp -r dwm dwm_backup
+cd dwm/
+patch -p1 < ../patches/dwm/dwm-status2d-6.3.diff
+exit
+cd .config/suckless/slstatus
+cd ../dwm
+nvim dwm.c
+rm -rf dwm.c.rej
+ls
+rm -rf <*
+ls
+mi
+sudo make clean install
+exit
+nvim .config/suckless/slstatus/config.def.h
+cd .config/suckless/slstatus
+mi
+sudo make clean install
+exit
+cd .config/suckless/slstatus
+./slstatus
+nvim config.def.h
+rm -rf config.h
+mi
+./slstatus
+cd
+ls
+la
+nvim .dwm/autostart.sh
+exit
+nvim .dwm/autostart.sh
+exit
+./.config/suckless/slstatus/slstatus
+la
+nvim .xinitrc
+nvim .dwm/autostart.sh
+exit
+exec ~/.config/suckless/slstatus/slstatus
+exit
+nvim .dwm/autostart.sh
+nvim .xinitrc
+exit
+shut
+exit
+cd .config/suckless/slstatus
+ls
+nvim config.def.h
+rm -rf config.h
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.def.h
+mi
+exit
+cd .config/suckless/slstatus
+rm -rf config.h
+mi
+exit
+install
+clear
+install pipewire pipewire-devel alsa-pipewire wireplumber
+sudo mkdir -p /etc/alsa/conf.d
+cd /etc/alsa/conf.d
+sudo ln -s /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d/
+sudo ln -s /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d/
+cd /etc/pulse
+cd
+cd /etc/pulse
+cd /etc
+ls p*
+mkdir pulse
+sudo mkdir pulse
+cd pulse/
+install pulseaudio
+ls
+sudo -e client.conf
+sudo nvim client.conf
+cd
+nvim .dwm/autostart.sh
+install pipewire-pulse
+install pipewire-pulseaudio
+install pulse-pipewire
+clear
+exit
+exec-once pipewire
+exit
+nvim .dwm/autostart.sh
+clear
+pactl info
+sudo pactl info
+exit
+pactl info
+cd .config/suckless/slstatus
+rm -rf config.h
+nvim config.def.h
+mi
+cd
+nvim .dwm/autostart.sh
+rm -rf .local/state/nvim/swap/%home%mario%.dwm%autostart.sh.swp
+nvim .dwm/autostart.sh
+exit
+pactl info
+wireplumber
+nvim .xinitrc
+exit
+pactl info
+nvim .xinitrc
+exit
+nvim .xinitrc
+exit
+pactl info
+ls
+pactl info
+nvim .xinitrc
+exit
+pactl info
+sudo pactl info
+wireplumber
+wpctl status
+wire
+exit
+wpctl status
+nvim .dwm/autostart.sh
+wpctl status
+exit
+wpctl status
+nvim .dwm/autostart.sh
+exit
+nvim .xinitrc
+exit
+sudo reboot
+exit
+nvim .xinitrc
+exit
+wpctl status
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+nvim .xinitrc
+nvim .dwm/autostart.sh
+clear
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+ff
+clear
+cd .config/suckless/slstatus
+nvim ~/.config/nushell/config.nu
+nvim config.def.h
+mi
+nvim config.h
+source .config/nushell/env.nu
+source ~/.config/nushell/config.nu
+mi
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+mi
+ls
+mi
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+mi
+ls
+sudo make install
+ls
+mi
+ls
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+nvim ~/.config/nushell/config.nu
+source ~/.config/nushell/config.nu
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.def.h
+rm -rf config.h
+mi
+nvim config.def.h
+mi
+ls
+rm -rf config.h
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.def.h
+rm -rf config.h
+mi
+exit
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+cd .config/suckless/slstatus
+nvim config.def.h
+mi
+clear
+rm -rf config.h
+mi
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+sol
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+sol
+slol
+sol
+soh
+clea
+clear
+cd .config/suckless/slstatus
+nvim .config/nvim/init.lua
+nvim config.h
+nvim ../../nvim/init.lua
+cat config.h
+nvim config.h
+mi
+nvim config.h
+mi
+exit
+sol
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+soh
+exit
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exi
+exit
+soh
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+soh
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+sol
+exit
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+soh
+sol
+cd .config/suckless/slstatus
+n
+nvim config.h
+mi
+exit
+soh
+exit
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+soh
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+cd .config/suckless/slstatus
+nvim config.h
+cd
+chmod +x test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+cat test.sh
+./test.sh
+nvim test.sh
+./test.sh
+sol
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+soh
+./test.sh
+soh
+./test.sh
+nvim test.sh
+cat test.sh
+nvim test.sh
+./test.sh
+sol
+./test.sh
+nvim test.sh
+./test.sh
+nvim test.sh
+./test.sh
+soh
+./test.sh
+cd .config/suckless/slstatus
+nvim config.h
+mi
+exit
+sol
+soh
+sol
+soh
+sol
+soh
+kbmap
+kmap
+setxkbmap de
+cd Downloads/
+unzip lady-gaga-and-bruno-mars-die-with-a-smile-single.zip
+ls
+rm -rf *.zip
+mv *.mp3 ..
+ls
+rm -rf *Gaga*
+ls
+rm -rf *.png *.jpg
+ls
+rm -rf *gaga*
+ls
+rm -rf *.docx
+ls
+clear
+cd
+ls
+mv `01 Die with a Smile.mp3` `Die with a Smile.mp3`
+ls
+mv `Die with a Smile.mp3` music/
+mppd
+mpd 
+ncmpcpp 
+cd music/
+ncmpcpp 
+nvim ~/.config/ncmpcpp/config
+ncmpcpp 
+cd
+mkdir -p ~/.config/mpd
+mkdir ~/.config/mpd
+cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
+install
+sudo xbps-remove -of
+install mpd
+clear
+cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
+ls .config/
+nvim .config/mpd/mpd.conf
+mpd .config/mpd/mpd.conf
+ls
+la *.
+la *.*
+mkdir .mpd
+mpd .config/mpd/mpd.conf
+ncmpcpp 
+ncmpcpp update
+ncmpcpp --help
+ncmpcpp -c .config/ncmpcpp/config
+touch .mpd/database
+nvim .config/mpd/mpd.conf
+mpd .config/mpd/mpd.conf
+ncmpcpp
+lsof -i TCP:6600
+exit
+nvim .config/mpd/mpd.conf
+nvim .config/ncmpcpp/config
+mpd .config/mpd/mpd.conf
+ncmpcpp
+nvim .config/ncmpcpp/config
+nvim .config/mpd/mpd.conf
+mpd .config/mpd/mpd.conf
+ncmpcpp
+nvim .config/mpd/mpd.conf
+mpd .config/mpd/mpd.conf
+htop
+mpd .config/mpd/mpd.conf
+ncmpcpp
+nvim .config/ncmpcpp/config
+pkill mpd
+mpd .config/mpd/mpd.conf
+pkill mpd
+d feh mpv-shot0001.jpg
+rm -rf mpv-shot0001.jpg
+d feh Bestätigung.jpg
+nvim .config/ncmpcpp/config
+mpd .config/mpd/mpd.conf
+ncmpcpp
+ncmpcpp ~/music/
+pkill mpd
+clear
+mpd .config/mpd/mpd.conf
+ncmpcpp
+pkill ncmpcpp
+pkill mpd
+ls .mpd
+mv .mpd/* .config/mpd
+ls .mpd/
+rm -rf .mpd/
+nvim .config/mpd/mpd.conf
+mpd .config/mpd/mpd.conf
+nvim .config/ncmpcpp/config
+ncmpcpp
+nvim .config/ncmpcpp/config
+ncmpcpp
+nvim .config/ncmpcpp/config
+ncmpcpp
+nvim .config/ncmpcpp/config
+ncmpcpp
+pkill mpd
+ncmpcpp
+nvim .config/ncmpcpp/config
+pkill mpd
+mv `Downloads/EnV - Anubis.mp3` music/
+ls music/
+mpd .config/mpd/mpd.conf
+clear
+ls music/
+cd music/
+mv `EnV - Anubis.mp3` EnV-Anubis.mp3
+ls
+ncmpcpp
+pkill mpd
+mpd .config/mpd/mpd.conf
+ncmpcpp
+cat .config/mpd/database
+ncmpcpp
+pkill mpd
+mpd update
+mpd .config/mpd/mpd.conf
+ncmpcpp update
+install
+install mpc
+mpc update
+mpd .config/mpd/mpd.conf
+mpc listall
+sudo mpc
+pkill mpd
+mpd .config/mpd/mpd.conf
+mpc
+mpc update
+mpc update music/
+mpc status
+mpc -p 6492 update
+ncmpcpp
+sol
+mv Downloads/Luminary.mp3 music/
+mpc -p 6492 update
+ncmpcpp
+rm -rf music/Luminary.mp3
+mv `Downloads/cure for me.mp3` music/
+mpc -p 6492 update
+ncmpcpp
+soh
+ncmpcpp
+pkill mpd
+mpd .config/mpd/mpd.conf
+mpc -p 6492 update
+nc
+install audfprint
+cd Downloads/
+ls cd_the-neighbourhood_the-neighbourhood_1.zip
+unzip cd_the-neighbourhood_the-neighbourhood_1.zip
+ls
+rm -rf cd* __*
+ls
+cd
+clear
+mv `Downloads/The Neighbourhood - Softcore.flac` music/
+mpc -p 6492 update
+mpc update
+clear
+ncmpcpp 
+nvim .config/ncmpcpp/config
+ncmpcpp 
+ls Downloads/
+mv `Downloads/Env - Anubis.flac` music/
+rm -rf music/EnV-Anubis.mp3
+mpc -p 6492 update
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+mpcu
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+mpcu
+ncmpcpp 
+mpcu
+mkdir PDF_Dateien.zip
+ls
+ls PDF_Dateien.zip/
+mv Adobe* PDF_Dateien.zip/
+zip PDF_Dateien.zip/
+zip mv PDF_Dateien.zip/* .
+mv PDF_Dateien.zip/* .
+ls
+rm -rf PDF_Dateien.zip/
+zip PDF_Dateien.zip Adobe*
+mkdir test
+cp Adobe* test
+ls test/
+zip PDF_Dateien.zip test/*
+zip PDF_Dateien.zip test
+mv test pdfs
+zip -r PDFS.zip pdfs/
+exit
+ls
+rm -rf *.pdf
+cat test.sh
+rm -rf test.sh
+clear
+rm -rf Downloads/*.pdf
+ls Downloads/
+cd Downloads/
+ls
+rm `Lady Gaga - Die With A Smile.flac`
+mv `Lady Gaga - Die With A Smile(1).flac` `Lady Gaga - Die With A Smile.flac`
+ls
+cd 
+ls
+mv Downloads/* music/
+mpcu
+ls music/
+ls music/ | sum size
+ls music/ | sum "size"
+ls music/ | sum column size
+ls music/ | get size
+ls music/ | get size | sum
+help sum
+cd Downloads/
+ls
+rm -rf `txmy - Ethereal.flac`
+ls
+cd
+mv Downloads/* music/
+ls music/ | get size | sum
+ls music/ | get size | math sum
+size
+size music/
+ls
+size Bestätigung.jpg
+size catppuccin_mocha.nu
+ls devour/
+size devour/devour.c
+size --help
+clear
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+cd music/
+dsize
+ls
+ls | get size
+cd
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+dsize
+ls .
+source ~/.config/nushell/config.nu
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+dsize
+nvim .config/nushell/config.nu
+source ~/.config/nushell/config.nu
+dsize
+config nu
+source ~/.config/nushell/config.nu
+config nu
+source ~/.config/nushell/config.nu
+dsize
+cd music/
+dsize
+config nu
+source ~/.config/nushell/config.nu
+dsize .
+config nu
+source ~/.config/nushell/config.nu
+dsize .
+cd
+dsize music/
+ls Downloads/
+mpcu
+ncmpcpp 
+clear
+dsize Downloads/
+mv Downloads/* music/
+dsize music/
+mpcu
+ncmpcpp 
+cd music/
+ls
+ls *die*
+ls Lady*
+ncmpcpp 
+rm -rf `Die with a Smile.mp3`
+ncmpcpp 
+ls | get size | sort
+ls |  sort size
+ls | sort -r size
+ls | sort -r 1 size
+ls | sort 
+ls *.mp3
+ls | get size | sort
+soh
+ani-cli Demon-Slayer-Kimetsu-no-Yaiba-Infinity-Castle
+ani-cli Demon-Slayer Infinity-Castle
+ani-cli Infinity-Castle
+ani-cli Kimetsu no Yaiba: Mugenjou-hen Movie 1 - Akaza Sairai
+ani-cli Kimetsu no Yaiba: Mugenjou-hen Movie 1
+ani-cli Mugenjou-hen
+ani-cli Demon-Slayer 
+clear
+cd .config/suckless/st/
+ls
+dsize .
+dsize ../dwm/
+nvim config.h
+mi
+qls
+ls
+nvim config.h
+mi
+nvim config.h
+mi
+nvim config.h
+mi
+exit
+cd .config/suckless/st/
+nvim config.h
+mi
+cd .config/suckless/st/
+nvim config.h
+mi
+nvim config.h
+mi
+cd .config/suckless/st/
+nvim config.h
+mi
+nvim config.h
+mi
+nvim config.h
+mi
+clear
+ff
+clear
+ff
+clear
+ff
+nvim config.h
+mi
+nvim config.h
+mi
+nvim config.h
+mi
+nvim config.h
+mi
+setxkbmap de
+ani-cli dandadan
+sudo nvim /etc/elogind/logind.conf
+ani-cli demon slayer
+ani-cli muesha
+ani-cli kimetso
+sudo xbps-query dab
+sudo xbps-query zip
+sudo xbps-query dab*
+sudo xbps-query dabmusicplayer
+sudo xbps-query -r *music*
+sudo xbps-query --regex *music*
+sudo xbps-query --regex *dab*
+sudo xbps-query --regex *zi*
+sudo xbps-query --regex zi*
+sudo xbps-query --regex z*
+install
+config nu
+sudo nvim /etc/elogind/logind.conf
+sudo reboot
+exit
+wpctl status
+pipewire
+wpctl status
+nvim .dwm/autostart.sh
+soh
+sol
+d pipewire
+soh
+sol
+exit
+nvim pipestart.sh
+chmod +x pipestart.sh
+nvim .dwm/autostart.sh
+wpctl status
+exit
+ani-cli berserk 2
+nc
+mpd .config/mpd/mpd.conf
+sol
+soh
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%+
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-
+soh
+ls music/ | get name
+ls music/ | get name > names.txt
+ls music/ | get name | echo names.txt
+ls
+ls music/ | get name | save names.txt
+ls
+cat names.txt
+sed -e 's/music\///' names.txt
+cat names.txt
+sed -e 's/music\///' names.txt | save names.txt
+sed -e 's/music\///' names.txt | save names2.txt
+cat names2.txt
+rm -rf names.txt ; mv names2.txt names.txt
+ls 
+cat names.txt | less
+clear
+cat names.txt
+ext
+exit
+tmux
+tmux kill-server
+clear
+cat names.txt
+clear
+rm -rf names.txt
+ls
+soh
+sol
+cd .config/suckless/dwm/
+nvim config.h
+nvim dwm.c
+mi
+nvim config.h
+nvim dwm.c
+mi
+nvim dwm.c
+mi
+cd ../st
+nvim st.c
+ls
+nvim x.c
+cd ../dwm
+nvim dwm.c
+mi
+nc
+exit
+cd .config/suckless/dwm/
+nvim dwm.c
+mi
+exit
+nvim .dwm/autostart.sh
+exit
+htop
+wpctl status
+cd .config/suckless/st
+nvim config.h
+cd ../dwm
+nvim config.h
+nvim dwm.c
+mi
+cd
+nvim pipestart.sh
+exit
+ls
+nvim .xinitrc
+ani-cli demon slayer
+ani-cli -U
+sudo ani-cli -U
+clear
+ani-cli black clover
+nc
+nvim .dwm/autostart.sh
+nvim .xinitrc
+exit
+pipewire
+wpctl status
+exit
+wpctl status
+pi
+pipewire
+clear
+nvim .xinitrc
+exit
+wpctl status
+pipewire
+clear
+nvim .xinitrc
+rm -rf .local/state/nvim/swap/%home%mario%.xinitrc.swp
+nvim .xinitrc
+exit
+wpctl status
+nvim .dwm/autostart.sh
+exit
+wpctl status
+mpcu
+nc
+install
+sudo xbps-remove eza
+sudo xbps-remove -of
+sudo xbps-remove sqlite
+clear
+sudo xbps-remove -of
+sudo xbps checkupdate
+sudo xbps-install -un
+nvim updates.sh
+chmod +x updates.sh
+./updates.sh
+ls
+rm -rf pipestart.sh
+ls pdfs/
+rm -rf pdfs/ pdfs.zip
+clear
+cd .config/suckless/slstatus/
+nvim config.h
+mi
+nvim config.h
+mi
+pkill slstatus
+slstatus 
+nvim config.h
+mi
+slstatus 
+nvim config.h
+mi
+slstatus 
+nvim config.h
+mi
+slstatus 
+clear
+nc
+cd .config/suckless/slstatus/
+d slstatus
+pkill slstatus
+nvim config.h
+mi
+slstatus 
+fc-cache
+cd ../st
+nvim config.h
+clear
+ff
+cd ../slstatus/
+nvim config.h
+fc-list
+fastfetch
+clear
+mv ../../fastfetch/ ../../ff
+fastfetch
+mv ../../ff/ ../../fastfetch
+ff
+clear
+fc-list | grep /root
+ls ~/.config/
+pc
+clear
+nvim config.h
+mi
+slstatus 
+nvim config.h
+mi
+slstatus 
+nvim config.h
+mi
+slstatus 
+
+nvim config.h
+mi
+slstatus 
+ff
+clear
+nvim config.h
+mi
+slstatus 
+nvim config.h
+install fontforge
+fc-list
+fc-list | grep JetBrains
+nc
+nvim config.h
+pkill slstatus
+d slstatus
+mi
+pkill slstatus
+mi
+install
+sudo xbps-remove plasma-activities
+v config.h
+cd
+v updates.sh
+clear
+fc-list | grep JetBrains
+cd .config/suckless/slstatus/
+v config.h
+mi
+pkill slstatus
+d slstatus
+cd ../dwm/
+v config.h
+mi
+exit
+cd .config/suckless/dwm/
+v config.h
+mi
+exit
+cd .config/suckless/dwm/
+v config.h
+mi
+exit
+cd .config/suckless/slstatus/
+v config.h
+mi
+pkill slstatus
+slstatus 
+cd ../dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm/
+v config.h
+mi
+exit
+cd .config/suckless/dwm/
+v config.h
+mi
+exit
+wpctl status
+pkill slstatus
+exit
+cd .config/suckless/slstatus/
+nc
+wpctl status
+pkill pipewire
+wpctl status
+pipe
+pipewire 
+v config.h
+sudo reboot
+exit
+nc
+mpd .config/mpd/mpd.conf
+nc
+ls
+ls .config/nc
+ls .config/ncmpcpp/
+ls .config/mpd/
+nc
+clear
+v .config/ncmpcpp/config
+v .config/mpd/mpd.conf
+ls music/
+v .config/mpd/mpd.conf
+mkdir music/playlists
+mv music/Default.m3u music/playlists/
+ls music/playlists/
+2282828282828282828282828282828282828282828282828282828282
+hallo
+20
+clear
+cd .config/suckless/slstatus/
+setxkbmap de
+exit
+cd .config/suckless/slstatus/
+v config.h
+cd
+rm -rf .local/state/nvim/swap/%home%mario%.config%suckless%slstatus%config.h.swp
+cd .config/suckless/slstatus/
+v config.h
+mi
+pkill slstatus
+slstatus 
+v config.h
+mi
+clear
+pkill slstatus
+d slstatus
+cd .config/suckless/slstatus/
+v config.h
+mi
+slstatus 
+v config.h
+mi
+slstatus 
+clear
+install
+clear
+ani-cli dandadan
+pkill slstatus
+d slstatus
+cd .config/suckless/slstatus/
+v config.h
+mi
+clear
+v .fehbg
+ls wallpaper/
+ls wallpaper/2560x1440/
+pkill slstatus
+d slstatus
+cd .config/suckless/slstatus/
+dc
+help dc
+dc --help
+clear
+v config.h
+mi
+cd .config/suckless/
+git clone https://git.suckless.org/surf
+cd surf/
+mi
+install webkit2gtk
+v packages.txt
+mi
+ls
+sudo make clean install
+install glibc
+install glib
+install
+mi
+ls
+v TODO.md
+sudo xbps-remove webkit2gtk
+sudo xbps-remove -of
+clear
+cd .
+cd ..
+rm -rf surf
+install surf
+surf voidlinux.org
+ls
+la
+ls .surf
+surf voidlinux.org
+tabbed surf
+clear
+ls .surf/styles/
+sudo xbps-remove surf
+cd .config/suckless/
+git clone https://git.suckless.org/surf
+cd surf/ ; mi
+install gcr-3
+install gcr
+v Makefile
+v config.mk
+cd ..
+rm -rf surf
+sudo xbps-remove -of
+cd
+clear
+cd .config/suckless/dwm
+clear
+v config.h
+v
+cd
+v .config/tmux/tmux.conf
+tmux
+tmux kill-server
+clear
+v ../st/config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+pkill pipewire
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+pkill pipewire
+exit
+pkill pipewire
+cd .config/suckless/dwm
+v config.h
+mi
+cd ..
+git clone https://git.suckless.org/surf
+git clone https://git.suckless.org/tabbed
+install surf
+sudo xbps-remove surf
+cd surf/
+mi
+v config.mk
+v Makefile
+sudo make clean install
+cd ..
+cd tabbed/
+sudo make clean install
+exit
+cd .config/suckless/tabbed/
+v config.mk
+ls
+cd ../dwm/
+ls
+v config.mk
+cd ../surf
+v config.mk
+v ../dwm/config.mk
+v config.mk
+mi
+xlocate glib
+install xlocate
+sudo xbps-xlocate glib
+cd
+install xtools
+xlocate glib
+xlocate -S glib
+ls
+la
+ls *.
+ls .*
+sudo xbps-query -f glib
+clear
+sudo xbps-remove xtools
+sudo xbps-remove -of
+install surf
+sudo xbps-remove surf
+cd .config/suckless/surf/
+clear
+v config.mk
+mi
+v config.mk
+mi
+echo $PKG_CONFIG_PATH
+exit
+clear
+pkill pipewire
+pi
+pipewire 
+cd .config/suckless/surf/
+config nu
+source ~/.config/nushell/config.nu
+locate grc
+clear
+mi
+locate gcr
+cd
+v .zshrc
+v .bashrc
+pkg-config 
+pkg-config gcr
+cd .config/suckless/surf/
+mi
+config nu
+source ~/.config/nushell/config.nu
+config nu
+export-env { $env.PKG_CONFIG_PATH = '/usr/bin/;/usr/share/' } ; $env.PKG_CONFIG_PATH
+mi
+ls /usr/lib/s*
+v config.mk
+pkg-config --cflags webkit2gtk
+v ~/.bashrc
+source ~/.bashrc
+exit
+pkg-config --cflags webkit2gtk
+exit
+cd .config/suckless/dwm
+v config.mk
+surf
+clear
+cd ../surf
+pkg-config --cflags webkit2gtk-4.1
+locate gcr-3
+locate gcr
+v config.mk
+mi
+locate gcr | rg gcr.pc
+locate gcr | rg gcr*
+locate gcr | rg gcr-*
+v config.mk
+cp config.mk config.mk.bak
+ls
+locate gio
+locate gio-2.0
+install gio
+install gio-2.0
+install gtk+-devel
+locate gio
+locate gio-2.0
+install libglib-devel
+install pkg-config
+v config.mk
+mi
+locate gtk+
+sudo xbps-remove -of
+rm -rf config.mk
+mv config.mk.bak config.mk
+mi
+sudo make clean install
+pkg-config --variable=pc_path pkg-config
+pkg-config --cflags --libs curl
+curl
+clear
+exit
+cd /usr/
+rg curl.pc
+sudo rg curl.pc
+cd ..
+sudo rg curl.pc
+clear
+sudo rg curl.pc bin
+cd bin
+sudo rg curl.pc bin
+sudo rg curl.pc
+cd ..
+ls
+sudo rg curl.pc lib
+cd lib
+sudo rg curl.pc
+cd ..
+sudo rg curl.pc lib32
+sudo rg curl.pc lib64
+cd
+locate curl | rg *.pc
+locate curl | rg .pc
+cd .config/suckless/surf/
+makepkg
+install makekg
+install webkit2gtk-devel
+mi
+install surf
+sudo xbps-remove surf
+mi
+xbps query -Rs gcr
+xbps-query -Rs gcr
+install gcr
+install gcr-devel
+mi
+sed -i 's,/usr/include,,g;s,/usr/lib,,g' config.mk
+sed -i "/CFLAGS/s|\${CPPFLAGS}|& $CFLAGS|g" config.mk
+sed -i "/LDFLAGS/s|\-s|$LDFLAGS|g" config.mk
+sed -i "/LDFLAGS/s|-s|$LDFLAGS|g" config.mk
+mi
+make CC=$CC ${makejobs}
+exit
+cd ..
+rm -rf surf
+sudo xbps-remove -of
+sudo xbps-remove surf
+sudo xbps-remove -of
+sudo xbps-remove webkit2gtk
+sudo xbps-remove webkit2gtk-devel
+sudo xbps-remove gcr-devel
+sudo xbps-remove -of
+clear
+cd /usr/local
+git clone https://git.suckless.org/surf
+sudo git clone https://git.suckless.org/surf
+mi
+sudo make clean install
+sudo make install
+cd surf/
+mi
+install surf
+sudo xbps-remove surf
+mi
+exit
+sudo rm -rf /usr/local/surf/
+exit
+git clone https://git.suckless.org/surf
+exit
+wpctl status
+pkill pipewire
+d pipewire
+exit
+wpctl status
+nc
+pkill pipewire
+pkill pipewire-pulse
+pkill wireplumber
+wpctl status
+exit
+wpctl status
+pkill pipewire
+wpctl status
+nc
+cd .config/suckless/surf/
+make clean install
+install surf
+sudo xbps-remove surf
+make clean install
+ls
+./surf-open.sh
+d feh surf.png
+cd
+ls Downloads/
+mv Downloads/surf-2.1.tar.gz .
+tar -xf surf-2.1.tar.gz
+ls
+rm -rf surf-2.1.tar.gz
+cd surf-2.1/
+ls
+sudo make clean install
+cd ..
+rm -rf surf-2.1/
+cd .config/suckless/surf/
+clear
+sudo xbps-install surf
+sudo xbps-remove surf
+install webkit2gtk-devel
+mi
+sudo rg glib.h /usr/
+clear
+install pkg-config-devel
+install pkg-configdevel
+install pkg-devel
+clear
+mi
+v config.mk
+exit
+v .bashrc
+cd
+v .bashrc
+locate pkg-config
+install pkg-config
+sudo xbps-remove pkg-config
+v .bashrc
+sudo xbps-remove pkgconf
+sudo xbps-remove pkg-conf
+source ~/.bashrc
+v .bashrc
+source ~/.bashrc
+exit
+clear
+v config.mk
+mi
+v .bashrc
+source ~/.bashrc
+exit
+cd .config/
+git add .
+cd suckless/surf/
+rm -rf .git
+cd ../tabbed/
+rm -rf .git
+cd ../slstatus/
+rm -rf .git
+cd
+cd .config/

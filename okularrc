@@ -7,7 +7,11 @@ ShowSidebar=true
 
 [Recent Files]
 File1[$e]=$HOME/Adf2xPro2xA08 VZ.pdf
+File2[$e]=$HOME/Downloads/├Ьbungszettel_3.pdf
+File3[$e]=$HOME/Downloads/├Ьbungszettel_4.pdf
 Name1[$e]=Adf2xPro2xA08 VZ.pdf
+Name2[$e]=├Ьbungszettel_3.pdf
+Name3[$e]=├Ьbungszettel_4.pdf
 
 [UiSettings]
 ColorScheme=Breeze Dunkel

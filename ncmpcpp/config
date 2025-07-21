@@ -1,9 +1,3 @@
-##############################################################
-## This is an example configuration file. Copy it to        ##
-## $XDG_CONFIG_HOME/ncmpcpp/config or $HOME/.ncmpcpp/config ##
-## and set up your preferences.                             ##
-##############################################################
-#
 ##### directories ######
 ##
 ## Directory for storing ncmpcpp related files.  Changing it is useful if you
@@ -13,30 +7,50 @@
 ##
 #
 ncmpcpp_directory = ~/.config/ncmpcpp
-#
-##
-## Directory for storing downloaded lyrics. It defaults to ~/.lyrics since other
-## MPD clients (eg. ncmpc) also use that location.
-##
-#
+
 #lyrics_directory = ~/.lyrics
-#
+
 ##### connection settings #####
-#
 mpd_host = localhost
-#
-mpd_port = 6600
-#
-#mpd_password = ""
-#
-#mpd_connection_timeout = 5
-#
-## Needed for tag editor and file operations to work.
-##
-mpd_music_dir = ~/music
+mpd_port = 6492
+mpd_music_dir = ~/music/
 #
 #mpd_crossfade_time = 5
 #
+
+database {
+    plugin "proxy"
+    host "localhost"
+    port "6492"
+}
+
+
+song_list_format = {$4%a - }{%t}|{$8%f$9}$R{$3(%l)$9}
+song_status_format = $b{{$8"%t"}} $3by {$4%a{ $3in $7%b{ (%y)}} $3}|{$8%f}
+song_library_format = {%n - }{%t}|{%f}
+alternative_header_first_line_format = $b$1$aqqu$/a$9 {%t}|{%f} $1$atqq$/a$9$/b
+alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
+current_item_prefix = $(green)$r$b
+current_item_suffix = $/r$(end)$/b
+current_item_inactive_column_prefix = $(cyan)$r
+current_item_inactive_column_suffix = $/r$(end)
+playlist_display_mode = columns
+browser_display_mode = columns
+progressbar_look = ->
+media_library_primary_tag = album_artist
+media_library_albums_split_by_date = no
+startup_screen = "media_library"
+display_volume_level = no
+ignore_leading_the = yes
+external_editor = nvim
+use_console_editor = yes
+empty_tag_color = magenta
+main_window_color = white
+progressbar_color = black:b
+progressbar_elapsed_color = blue:b
+statusbar_color = red
+statusbar_time_color = cyan:b
+
 # Exclude pattern for random song action
 # http://www.boost.org/doc/libs/1_46_1/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 #random_exclude_pattern = "^(temp|midi_songs).*"
@@ -47,13 +61,6 @@ mpd_music_dir = ~/music
 ## output. Its format parameter has to be set to 44100:16:1 for mono
 ## visualization or 44100:16:2 for stereo visualization. As an example here is
 ## the relevant section for mpd.conf:
-##
-## audio_output {
-##        type            "fifo"
-##        name            "Visualizer feed"
-##        path            "/tmp/mpd.fifo"
-##        format          "44100:16:2"
-## }
 ##
 ## If the visualization on occasion diverges from the audio output, please set
 ## 'buffer_time' parameter of your audio output in mpd.conf to '100000' (100ms)
@@ -613,7 +620,7 @@ mpd_music_dir = ~/music
 #
 #progressbar_color = black:b
 #
-progressbar_elapsed_color = green:b
+#progressbar_elapsed_color = green:b
 #
 #statusbar_color = default
 #
@@ -625,5 +632,5 @@ progressbar_elapsed_color = green:b
 #
 #window_border_color = green
 #
-active_window_border = red
+#active_window_border = red
 #

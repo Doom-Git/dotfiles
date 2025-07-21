@@ -237,7 +237,6 @@ static int xerror(Display *dpy, XErrorEvent *ee);
 static int xerrordummy(Display *dpy, XErrorEvent *ee);
 static int xerrorstart(Display *dpy, XErrorEvent *ee);
 static void zoom(const Arg *arg);
-static void sound(const Arg *arg);
 
 /* variables */
 static const char autostartblocksh[] = "autostart_blocking.sh";
@@ -2330,13 +2329,6 @@ zoom(const Arg *arg)
 	if (c == nexttiled(selmon->clients) && !(c = nexttiled(c->next)))
 		return;
 	pop(c);
-}
-
-void
-sound(const Arg *arg)
-{
-  if (arg->i == 1) system("wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+");
-  else system("wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-");
 }
 
 int
