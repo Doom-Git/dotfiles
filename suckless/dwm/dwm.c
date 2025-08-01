@@ -238,6 +238,7 @@ static int xerrordummy(Display *dpy, XErrorEvent *ee);
 static int xerrorstart(Display *dpy, XErrorEvent *ee);
 static void zoom(const Arg *arg);
 static void sound(const Arg *arg);
+static void lock();
 
 /* variables */
 static const char autostartblocksh[] = "autostart_blocking.sh";
@@ -1362,6 +1363,7 @@ propertynotify(XEvent *e)
 void
 quit(const Arg *arg)
 {
+  system("pkill pipewire");
 	running = 0;
 }
 
@@ -2337,6 +2339,12 @@ sound(const Arg *arg)
 {
   if (arg->i == 1) system("wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%+");
   else system("wpctl set-volume @DEFAULT_AUDIO_SINK@ 2%-");
+}
+
+void
+lock()
+{
+  system("cd ~/.config/suckless/slock/ && slock");
 }
 
 int

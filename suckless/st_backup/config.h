@@ -124,8 +124,14 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+	"#080F0B", /* default background colour */
 };
+
+/* Background color codes to switch from
+  -#080B0F: Blaue Richtung
+  -#080F0B: Grüne Richtung
+  -#0C0D0C: Grün, aber mehr Neutral
+*/
 
 
 /*
@@ -205,7 +211,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ Mod1Mask,             XK_k,           kscrollup,      {.i = -1} },
-        { Mod1Mask,             XK_j,   	kscrolldown,    {.i = -1} },
+  { Mod1Mask,             XK_j,   	kscrolldown,    {.i = -1} },
 	{ Mod1Mask, 		XK_a, 		changealpha, 	{.i =  0} },
 };
 

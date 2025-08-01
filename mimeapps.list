@@ -1,23 +1,23 @@
 [Default Applications]
-x-scheme-handler/http=userapp-Zen-3YD572.desktop
-x-scheme-handler/https=userapp-Zen-3YD572.desktop
-x-scheme-handler/chrome=userapp-Zen-3YD572.desktop
-text/html=userapp-Zen-3YD572.desktop
-application/x-extension-htm=userapp-Zen-3YD572.desktop
-application/x-extension-html=userapp-Zen-3YD572.desktop
-application/x-extension-shtml=userapp-Zen-3YD572.desktop
-application/xhtml+xml=userapp-Zen-3YD572.desktop
-application/x-extension-xhtml=userapp-Zen-3YD572.desktop
-application/x-extension-xht=userapp-Zen-3YD572.desktop
+x-scheme-handler/http=userapp-Zen-D7H392.desktop
+x-scheme-handler/https=userapp-Zen-D7H392.desktop
+x-scheme-handler/chrome=userapp-Zen-D7H392.desktop
+text/html=userapp-Zen-D7H392.desktop
+application/x-extension-htm=userapp-Zen-D7H392.desktop
+application/x-extension-html=userapp-Zen-D7H392.desktop
+application/x-extension-shtml=userapp-Zen-D7H392.desktop
+application/xhtml+xml=userapp-Zen-D7H392.desktop
+application/x-extension-xhtml=userapp-Zen-D7H392.desktop
+application/x-extension-xht=userapp-Zen-D7H392.desktop
 
 [Added Associations]
-x-scheme-handler/http=userapp-Zen-3YD572.desktop;
-x-scheme-handler/https=userapp-Zen-3YD572.desktop;
-x-scheme-handler/chrome=userapp-Zen-3YD572.desktop;
-text/html=userapp-Zen-3YD572.desktop;
-application/x-extension-htm=userapp-Zen-3YD572.desktop;
-application/x-extension-html=userapp-Zen-3YD572.desktop;
-application/x-extension-shtml=userapp-Zen-3YD572.desktop;
-application/xhtml+xml=userapp-Zen-3YD572.desktop;
-application/x-extension-xhtml=userapp-Zen-3YD572.desktop;
-application/x-extension-xht=userapp-Zen-3YD572.desktop;
+x-scheme-handler/http=userapp-Zen-D7H392.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-3YD572.desktop;
+x-scheme-handler/https=userapp-Zen-D7H392.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-3YD572.desktop;
+x-scheme-handler/chrome=userapp-Zen-D7H392.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-3YD572.desktop;
+text/html=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;
+application/x-extension-htm=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;
+application/x-extension-html=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;
+application/x-extension-shtml=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;
+application/xhtml+xml=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;
+application/x-extension-xhtml=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;
+application/x-extension-xht=userapp-Zen-3YD572.desktop;userapp-Zen-3D8Y92.desktop;userapp-Zen-D7H392.desktop;

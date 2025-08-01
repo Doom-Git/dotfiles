@@ -1675,3 +1675,1850 @@ git commit -m "added ncmpcpp/mpd, added suckless tools, pipewire config"
 sudo xbps-remove fontforge
 git rm fontforge/
 git rm -r fontforge/
+git add .
+git commit -m "added ncmpcpp/mpd, added suckless tools, pipewire config"
+ls
+ls keepassxc/
+cat keepassxc/keepassxc.ini
+git push -u origin main
+cd
+ff
+clear
+ff
+clear
+tabbed st
+ls
+clear
+tabbed -r 2 st -w ''
+d tabbed -r 2 st -w ''
+devour tabbed -r 2 st -w ''
+clear
+tabbed -e surf
+tabbed surf -e
+man tabbed
+cd .config/suckless/tabbed/
+clear
+ls
+v config.h
+ls -la
+chmod +w config.h
+mi
+v .config/suckless/st
+v .config/suckless/st/config.h
+v config.h
+mi
+tabbed -r 2 st -w ''
+clear
+v config.h
+tabbed -r 2 st -w ''
+clear
+cd ../patches/
+ls
+mv dmenu/* .
+ls
+rm -rf dmenu*
+mv dwm/* .
+ls
+rm -rf dwm/
+mv st/* .
+ls
+rm -rf st/
+clear
+ls
+mv ~/tabbed-autohide-20201222-dabf6a2.diff .
+cd ../tabbed/
+patch -p1 < ../patches/tabbed-autohide-20201222-dabf6a2.diff
+ls
+cd .config/suckless/tabbed/
+v tabbed.c
+mi
+v tabbed.c
+mi
+tabbed -r 2 st -w ''
+mv ~/tabbed-hidetabs-20191216-b5f9ec6.diff ../patches/
+patch -p1 < ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+ls
+cd .config/suckless/tabbed/
+v config.h
+rm -rf config.h
+v <.rej
+cat <.rej
+v config.def.h
+ls
+rm -rf tabbed.1
+rm -rf xembed.1
+clear
+v tabbed.c
+mi
+v tabbed.c
+mi
+v <.rej
+clear
+rm -rf <*
+ls
+tabbed -r 2 st -w ''
+clear
+cd ..
+rm -rf tabbed/
+rm -rf patches/tabbed-autohide-20201222-dabf6a2.diff
+git clone https://git.suckless.org/tabbed
+cd tabbed/
+rm -rf config.def.h
+ls
+cd ..
+rm -rf tabbed/
+git clone https://git.suckless.org/tabbed
+cd tabbed/
+v config.def.h
+mi
+sudo make clean install
+patch -p1 < ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+ls
+rm -rf xembed.1
+rm -rf tabbed.1
+clear
+cd .config/suckless/tabbed/
+v config.def.h
+rm -rf config.h
+v tabbed.c
+mi
+rm -rf config.h
+v config.def.h
+v ta
+v tabbed.c
+mi
+v tabbed.c
+sudo make clean install
+v tabbed.c
+mi
+v tabbed.c
+mi
+mv config.def.h ..
+cd ..
+rm -rf tabbed/
+git clone https://git.suckless.org/tabbed
+rm -rf tabbed/config.def.h
+mv config.def.h tabbed/
+cd tabbed/
+sudo make clean install
+mv config.def.h ..
+cd ..
+rm -rf tabbed/
+git clone https://git.suckless.org/tabbed
+cd tabbed/
+sudo make clean install
+patch -p1 < ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+rm -rf config.def.h
+rm -rf config.h
+mv ../config.def.h .
+v <.rej
+v config.def.h
+v tabbed.c
+mi
+ls
+rm -rf xembed.1
+rm -rf tabbed.1
+mi
+ls
+rm -rf <*
+make clean install
+sudo make clean install
+ls
+tabbed -r 2 st -w ''
+mv config.def.h ..
+mv tabbed.c ..
+cd ..
+rm -rf tabbed/
+git clone https://git.suckless.org/tabbed
+cd tabbed/
+sudo make clean install
+ls
+patch -p1 < ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+rm -rf <*
+rm -rf tabbed.c
+mv ../tabbed.c . 
+rm -rf .git
+rm -rf config.def.h
+mv ../config.def.h .
+clear
+mi
+tabbed -r 2 st -w ''
+rm -rf config.h
+mi
+ls
+tabbed -r 2 st -w ''
+mv ~/tabbed-keyrelease-20191216-b5f9ec6.diff ../patches/
+patch -p1 < ../patches/tabbed-keyrelease-20191216-b5f9ec6.diff
+clear
+ls
+cd .config/suckless/tabbed/
+v <.rej
+701
+v tabbed.c
+mi
+v <.rej
+rm -rf <*
+tabbed -r 2 st -w ''
+v config.def.h
+rm -rf config.h
+mi
+ls
+tabbed -r 2 st -w ''
+v config.def.h
+mi
+rm -rf config.h
+mi
+tabbed -r 2 st -w ''
+v config.def.h
+rm -rf config.h
+mi
+tabbed -r 2 st -w ''
+mv ~/tabbed-keycode-20170508-6dc3978.diff ../patches/
+setxkbmap de
+cd .config/suckless/tabbed/
+ls
+v config.def.h
+rm -rf config.h
+mi
+tabbed -r 2 st -w ''
+v config.def.h
+rm -rf config.h
+mi
+tabbed -r 2 st -w ''
+cd .config/suckless/tabbed/
+v config.def.h
+rm -rf config.h
+mi
+tabbed -r 2 st -w ''
+tabbed surf -e voidlinux.org
+tabbed surf voidlinux.org -e
+tabbed -r 2 surf voidlinux.org -w ''
+ani-cli violet evergarden
+cd .config/suckless/tabbed/
+mv tabbed tabbed_copy
+git clone https://git.suckless.org/tabbed
+v ../patches/tabbed-keyrelease-20191216-b5f9ec6.diff
+v ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+ls
+cd ..
+ls
+cd tabbed/
+ls
+mv tabbed_copy tabbed
+ls
+ls tabbed/
+rm -rf tabbed/arg.h
+rm -rf tabbed/*
+ls
+rm -rf tabbed/
+ls
+tabbed -r 2 st -w ''
+cd ..
+git clone https://git.suckless.org/tabbed
+mv tabbed tabbed_copy
+git clone https://git.suckless.org/tabbed
+cd tabbed/
+sudo make clean install
+patch -p1 < ../patches/tabbed-keyrelease-20191216-b5f9ec6.diff
+cd .config/suckless/tabbed/
+v config.def.h
+cd ..
+rm -rf tabbed/
+git clone https://git.suckless.org/tabbed
+cd tabbed/
+v <.rej
+v ../patches/tabbed-keyrelease-20191216-b5f9ec6.diff
+ls
+patch -p1 < ../patches/tabbed-keyrelease-20191216-b5f9ec6.diff
+ls
+v <.rej
+v tabbed.c
+sudo make clean install
+patch -p1 < ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+v config.def.h
+mi
+rm -rf config.h
+sudo make install
+v <.rej
+v <.orig
+ls
+v tabbed.c
+sudo make clean install
+patch -p1 < ../patches/tabbed-hidetabs-20191216-b5f9ec6.diff
+mi
+cd ..
+rm -rf tabbed/
+mv tabbed_copy/ tabbed
+cd tabbed/
+sudo make clean install
+rm -rf config.h
+sudo make clean install
+clear
+shut
+exit
+ff
+clear
+cd .config/suckless/slstatus/
+v config.def.h
+v config.h
+rm -rf config.def.h
+cp config.h config.def.h
+cat config.def.h
+mi
+pkill slstatus
+tabbed -r 2 st -w ''
+clear
+ls Downloads/
+clear
+ls Downloads/
+ls music/
+clear
+rm -rf `Downloads/Sönke Ahrens - How to Take Smart Notes_ One Simple Technique to Boost Writing, Learning and Thinking - For Students, Academics and Nonfiction (2017, Createspace Independent Publishing Platform) - libgen.li.epub`
+clear
+ls Downloads/
+mkdir Obsidian_Guides
+mv `Downloads/Obsidian： The King of Learning Tools (FULL GUIDE + SETUP).mp4` Obsidian_Guides/
+mpv `Obsidian_Guides/Obsidian： The King of Learning Tools (FULL GUIDE + SETUP).mp4`
+rm -rf `Obsidian_Guides/Obsidian： The King of Learning Tools (FULL GUIDE + SETUP).mp4`
+clear
+ls -la | wc
+ls -la
+cat .bash_logout
+rm -rf .bash_logout
+cat .bash_profile
+cat .xinitrc
+cat .dwm/autostart.sh
+clear
+ls -la
+rm -rf .fehbg
+v .dwm/autostart.sh
+cat updates.sh
+mv updates.sh .config/suckless/slstatus/
+cd .config/suckless/slstatus/
+v config.def.h
+mi
+rm -rf config.h
+mi
+pkill slstatus
+d slstatus
+cd
+clear
+ls
+mv catppuccin_mocha.nu .config/nushell/
+cd .config/nushell/
+ls
+v config.nu
+source config.nu
+ls
+la
+cd
+la
+rm -rf .p10k.zsh
+cat .profile
+rm -rf .zsh*
+clear
+la
+cat .bash_history
+rm -rf .bash_history
+la
+cat .lyrics/
+ls .lyrics/
+rm -rf .lyrics/
+clear
+la
+cat .zcompdump
+clear
+la
+ls .mozbuild/
+rm -rf .mozbuild/
+rm -rf .mozilla/
+la
+ls .gnupg/
+ls .var
+ls .var/app/
+flatpak list
+flatpak uninstall org.signal.Signal
+flatpak uninstall com.github.tchx84.Flatseal
+clear
+ls .var/app/
+rm -rf .var
+la
+cat .bashrc
+clear
+la
+ls .fontconfig/
+rm -rf .fontconfig/
+ls .surf
+clear
+ls -la | wc
+mv `Downloads/Obsidian： The King of Learning Tools (FULL GUIDE + SETUP).mp4` Obsidian_Guides/
+mpv `Obsidian_Guides/Obsidian： The King of Learning Tools (FULL GUIDE + SETUP).mp4`
+clear
+install
+sudo xbps-remove weechat
+sudo xbps-remove -of
+install unzip
+clear
+flatpak install obsidian
+cd .local/
+ls
+cd share/applications/
+ls
+cat zen.desktop
+v zen.desktop
+flatpak run obsidian
+flatpak list
+flatpak run md.obsidian.Obsidian
+dbus-run-session flatpak run md.obsidian.Obsidian
+clear
+cd .local/share/applications/
+ls
+cat zen.desktop
+v obsidian.desktop
+ls
+cat userapp-Zen-3YD572.desktop
+mv zen.desktop ..
+rm -rf ../zen.desktop
+cd
+ls
+la
+rm -rf .local/share/applications/obsidian.desktop
+sudo ln -s /var/lib/flatpak/exports/bin/md.obsidian.Obsidian /usr/bin/obsidian
+ls .var/
+ls .var/app/
+clear
+la
+cat .wpa_cli_history
+rm -rf .wpa_cli_history
+ls zen/
+clear
+la
+mkdir apps
+mv keepass/ apps/
+mv devour/ apps/
+d feh wallpaper/2560x1440/Anime_Computer.png
+clear
+la
+mv zen apps/
+cd .local/share/applications/
+v userapp-Zen-3YD572.desktop
+cd
+mv apps/zen ..
+mv apps/zen .
+ls -la /var/www/ | grep "\->"
+exit
+clear
+cd /bin/
+sudo find . -type l -ls<\n>
+sudo find . -type l -ls<\n> zen*
+clear
+cd
+sudo find . -type l -ls
+cd .cache/
+la
+clear
+ls
+rm -rf zsh
+rm -rf p10k*
+rm -rf librewolf/
+rm -rf xlocate.git/
+cd
+sudo find . -type l -ls
+rm -rf .cache/flatpak/
+rm -rf .cache/app/org.signal.Signal/
+rm -rf .cache/app/com.github.tchx84.Flatseal/
+clear
+ff
+cd zen
+sudo find . -type l -ls
+cd /bin/
+sudo find . -type l -ls | rg zen
+sudo rm -rf zen
+cd
+ls
+ls zen/
+mv zen apps/
+sudo ln -s ~/apps/zen/zen /bin/zen
+rm -rf .local/share/applications/us*
+ls -la | wc
+cd
+clear
+la
+ls .pki
+ls .pki/nssdb/
+clear
+la
+dsize music/
+dsize apps
+ls apps/
+ls .cargo/
+clear
+la
+cat .gitconfig
+exit
+v .xinitrc
+v .dwm/autostart.sh
+cat .profile
+cat .bash_profile
+v .bash_profile
+exit
+v .dwm/autostart.sh
+mv .fehbg fehbg.sh
+chmod +x fehbg.sh
+./fehbg.sh
+cat fehbg.sh
+rm -rf fehbg.sh
+v .dwm/autostart.sh
+pkill pipewire
+exit
+setxkbmap de
+v .dwm/autostart.sh
+cd .config/suckless/slstatus/
+ls
+v config.def.h
+./updates.sh
+rm -rf config.h
+mi
+ls
+sudo make clean install
+v config.def.h
+mi
+pkill slstatus
+cd .config/suckless/slstatus/
+mi
+ls
+rg "rm -rf sl" ~/.histfile
+rg "rm -rf" ~/.histfile
+clear
+v config.mk
+mi
+v config.mk
+mi
+v config.mk
+mi
+rm -rf config.h
+sudo make clean install
+cd ..
+mv slstatus/ slstatus_old
+ls patches/sl
+ls patches/sl*
+ls patches/
+git clone https://git.suckless.org/slstatus
+cd slstatus/
+mi
+pkill slstatus
+d slstatus
+pkill slstatus
+v config.def.h
+cd ..
+rm -rf slstatus/
+mv slstatus_old/ slstatus
+cd slstatus/
+mi
+pkill slstatus
+slstatus 
+ani-cli chainsaw man
+setxkbmap de
+xrandr
+sudo reboot
+exit
+clear
+xrandr
+xrandr --output DP-1-1 --off
+xrandr --output DP-1 --off
+xrandr --output DP-1 --auto
+xrandr --output DP-1 --pos 2560x1440
+xrandr --output DP-1 --mode 2560x1440 
+xrandr --output DP-1 --pos 2
+xrandr --output DP-1 --pos 2560x0
+cat .xinitr
+cat .xinitrc
+clear
+cat .dwm/autostart.sh
+feh --no-fehbg --bg-fill --randomize ~/wallpaper/2560x1440/*
+clear
+slstatus 
+cd .config/suckless/slstatus/
+mi
+install gcc
+mi
+pkill slstatus
+d slstatus
+cd .config/suckless/slstatus/
+setxkbmap de
+v config.def.h
+rm -rf config.h
+mi
+clear
+install
+sudo xbps-remove -of
+gcc --version
+sudo xbps-remove unzip
+cd .config/suckless/
+git clone https://git.suckless.org/slock
+cd slock/
+mi
+sudo make clean install 
+ls
+rm -rf config.def.h
+clear
+slock
+v config.h
+chmod +w config.h
+mv ~/slock-background-image-20220318-1c5a538.diff ../patches/
+patch -p1 < ../patches/slock-background-image-20220318-1c5a538.diff
+install patch
+ff
+clear
+patch -p1 < ../patches/slock-background-image-20220318-1c5a538.diff
+clear
+ls
+cd .config/suckless/slock/
+clear
+v config.h
+v config.mk
+install lImlib2
+install lImlib
+install limlib2
+clear
+v slock.c
+v <.rej
+mi
+install imlib2
+install imlib2-devel
+mi
+v slock.c
+mi
+v slock.c
+mi
+ls
+rm -rf <*
+clear
+mv ~/Lockpic.jpg .
+v config.c
+v config.h
+slock
+v config.h
+mi
+slock
+v config.h
+mi
+slock
+sudo xbps-remove -of
+clear
+mv ~/Downloads/wallhaven-6lkrjl_2560x1440.png .
+rm -rf Lockpic.jpg
+mv wallhaven-6lkrjl_2560x1440.png Lockscreen.png
+v config.h
+mi
+slock
+cd ../dwm
+rm -rf config.def.h
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v dwm.c
+v config.h
+mi
+v config.h
+v dwm.c
+v config.h
+v dwm.c
+v config.h
+mi
+pkill pipewire
+exit
+slock
+cd .config/suckless/slo
+cd .config/suckless/slock/
+v config.h
+mi
+cd
+slock
+cd .config/suckless/slock/
+v config.h
+mi
+cd
+slock
+cd .config/suckless/slock/
+slock
+ls
+mi
+v config.h
+mi
+slock
+sudo xbps-install -Suy
+v config.h
+mi
+cd ../dwm
+v config.h
+mi
+exit
+slock
+wpctl status
+clear
+cd .config/suckless/slock/
+ls
+cp config.h config.def.h
+mi
+slock
+v config.h
+mi
+slock
+v config.h
+mi
+slock
+v config.h
+mi
+slock
+ls /usr
+la /usr/
+cd /usr/
+sudo rg nobody
+cd ..
+/etc/shadow
+cat /etc/shadow
+sudo cat /etc/shadow
+groupadd nobody
+sudo cat /etc/group
+sudo groupadd nobody
+cd
+cd .config/suckless/slock/
+v config.h
+mi
+slock
+v config.h
+mi
+slock
+cd
+slock
+cd .config/suckless/slock/
+slock
+v config.h
+mi
+slock
+cd
+slock
+d feh ~/.config/suckless/slock/Lockscreen.png
+cp .config/suckless/slock/Lockscreen.png .
+cd .config/suckless/slock/
+v config.h
+mi
+slock
+cd
+slock
+cd .config/suckless/slock/
+v config.h
+mi
+slock
+cd
+slock
+cd .config/suckless/slock/
+v config.h
+mi
+slock
+cd
+slock
+ls
+la .config
+la
+cd .config/suckless/
+la
+la slock/
+cd slock/
+chmod +x Lockscreen.png
+chmod +w Lockscreen.png
+slock
+cd
+slock
+pwd
+sudo mv Lockscreen.png /
+slock
+cd .config/suckless/slock/
+v config.h
+cd
+slock
+rm -rf /Lockscreen.png
+sudo rm -rf /Lockscreen.png
+clear
+pkill slstatus
+slstatus 
+cd .config/suckless/slstatus/
+ls
+v config.h
+chmod +w config.h
+mi
+slstatus 
+cd
+slstatus 
+cd .config/suckless/slock
+slock
+man slock
+makewhatis /usr/local/share/man
+cd
+slock cd .config/suckless/slock/
+slock sudo cd .config/suckless/slock/
+clear
+sudo
+sudo ls
+slock sudo cd .config/suckless/slock/
+clear
+slock ls
+cd .config/suckless/slock
+v config.h
+mi
+slock
+v config.h
+mi
+slock
+slock ls
+cd
+slock cd .config/suckless/slock/
+slock cd ~/.config/suckless/slock/
+slock cd /home/mario/.config/suckless/slock/
+cd .config/suckless/slock;slock
+cd .config/suckless/slock;slock cd
+cd ~/.config/suckless/slock;slock cd
+cd ~/.config/suckless/slock;slock cd ..
+cd ..
+cd ~/.config/suckless/slock;slock cd slock
+cd ~/.config/suckless/slock;slock man slock
+clear
+cd
+v script.sh
+chmod +x script.sh
+cd .config/suckless/slock;slock ~/script.sh
+~/script.sh
+./~/script.sh
+cd
+./script.sh
+mv script.sh .config/suckless/slock/
+cd .config/suckless/slock
+cd ~/.config/suckless/slock;slock ./script.sh
+./script.sh
+v script.sh
+./script.sh
+v script.sh
+./script.sh
+v script.sh
+./script.sh
+v script.sh
+source script.sh
+cd ~/.config/suckless/slock;slock source script.sh
+v script.sh
+cd ~/.config/suckless/slock;slock source script.sh
+v script.sh
+home
+source script.sh
+exit
+ls
+rm -rf script.sh
+cd ../dwm
+v config.h
+v dwm.c
+mi
+exit
+htop
+clear
+cd .config/suckless/dwm
+v dwm.c
+mi
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 30%
+cd
+v .dwm/autostart.sh
+cd .config/suckless/dwm
+cd
+v .dwm/autostart.sh
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+nc
+mpd .config/mpd/mpd.conf
+nc
+pkill mpd
+clear
+cd .config/suckless/dwm
+v config.h
+exit
+ls .config/suckless/patches/dwm*
+feh wallpaper/2560x1440/Anime_City.png
+rm -rf .config/suckless/patches/dwm-swallow-6.3.diff
+ani-cli dandadan
+cd .config/
+cd nvim/
+ls
+clear
+ls lua/
+v lua/chadrc.lua
+ls
+mv plugins.lua lua/plugins/
+v lua/plugins/plugins.lua
+v
+v lua/plugins/plugins.lua
+v
+v lua/plugins/plugins.lua
+v
+v lua/options.lua
+v lua/autocmds.lua
+v lua/configs/lspconfig.lua
+rg mason
+ls
+cd lua/plugins/
+v
+v --version
+v plugins.lua
+v ../configs/lspconfig.lua
+ls
+v init.lua
+cd ../configs/
+v lspconfig.lua
+v
+mkdir rust_test
+cd rust_test/
+cargo init
+v src/main.rs
+cd ..
+rm -rf rust_test/
+cd ../plugins/
+rm -rf plugins.lua
+v init.lua
+v
+v init.lua
+v
+cd
+git clone https://github.com/doom-mario/funcgraph
+git clone github@github.com/doom-mario/funcgraph
+git clone github@github.com/doom_mario/funcgraph
+git clone github@github.com/doom-mario/FuncGraph
+git clone github@github.com/doom-mario/Funcgraph
+git clone git@github.com:Doom-Git/funcgraph.git
+cd funcgraph/
+cd ..
+ls -la | wc
+la
+rm -rf .surf
+rm -rf .config/suckless/surf/
+sudo xbps-remove surf
+sudo xbps-remove -of
+sudo xbps-remove webkit2gtk-devel
+sudo xbps-remove webkit2gtk
+sudo xbps-remove gcr-devel
+sudo xbps-remove gcr
+sudo xbps-remove -of
+clear
+gcc --version
+clear
+cd funcgraph/
+ls
+v Cargo.toml
+cd ~/.config/nvim/lua/plugins/
+v init.lua
+cd
+cd funcgraph/
+v src/main
+v src/main.rs
+cd ../.config/nvim/lua/plugins/
+v init.lua
+v
+v init.lua
+v
+cd 
+cd funcgraph/src/
+v main.rs
+cd
+sudo xbps-remove of
+sudo xbps-remove -of
+clear
+install badwolf
+xbps-install -u xbps
+sudo xbps-install -u xbps
+install badwolf
+install
+ff
+clear
+sudo xbps-remove badwolf
+sudo xbps-remove -of
+clear
+ff
+clear
+v .config/mpd/mpd.conf
+clear
+mpd .config/mpd/mpd.conf
+mpc load Default
+mpc update
+nc
+pkill mpd
+mpd .config/mpd/mpd.conf
+mpc updat
+mpc update
+nc
+v .config/mpd/
+v .config/mpd/mpd.conf
+clear
+la music/
+la music/playlists/
+chmod +w music/**
+mpc update
+mpd .config/mpd/mpd.conf
+clear
+nc
+la
+ls .lyrics/
+cd .config/mpd
+ls
+la
+chmod +w *
+la
+chmod +w **
+chmod +w database
+la
+chmod +ww database
+la
+chmod 666 database
+la
+mpc update
+mpc -p 6492 update
+mpc -p 6492 load Default
+nc
+mpc -p 6492 play
+cd
+mpc -p 6492 load music/playlists/Default.m3u
+mpc -p 6492 load Default
+mpc -p 6492 play
+nc
+cd music/playlists/
+la
+nc
+mpc -p 6492 load Standart
+nc
+rm -rf Default.m3u
+cd
+nc
+mpc -p 6492 load Standart
+nc
+mpc -p 6492 load Standart
+config nu
+source .config/nushell/config.nu
+loadp
+mpc -p 6492 load Standart
+config nu
+source .config/nushell/config.nu
+loadp
+nc
+loadp
+nc
+./.config/suckless/slstatus/slstatus/update.sh
+cd .config/suckless/slstatus/
+ls
+./updates.sh
+cat updates.sh
+xbps-install -un
+xbps-install -un | cut -d' ' -f2
+xbps-install -un | cut -d' ' -f2 | uniq -c | xargs
+cd
+nc
+setxkbmap
+xrandr --output DP-1 --pos 2560x0
+xrandr --output DP-1 --mode 2560x1440
+xrandr
+xrandr --output DP-1 --mode 2560x1440 
+setxkbmap de
+xrandr --output DP-1 --mode 2560x1440 --output eDP1 --mode 1920x1080
+clear
+feh --no-fehbg --bg-fill --randomize ~/wallpaper/2560x1440/*
+clear
+mpc -p 6492 load Standart
+install
+sudo xbps-remove libwep
+sudo xbps-remove libwebp
+sudo xbps-remove gimp
+sudo xbps-remove -of
+clear
+ff
+clear
+cd .config/suckless/slstatus/
+rm -rf updates.sh
+v config.h
+pkill slstatus
+d slstatus
+mi
+elogind
+sudo xbps-install elogind
+sv down acip
+sudo sv down acpid
+install tlp
+sudo ln -s /etc/sv/tlp /var/service
+sudo sv up tlp
+man tlp
+tlp start
+sudo tlp start
+sudo v /etc/elogind/logind.conf
+sudo nvim /etc/elogind/logind.conf
+sv restart elogind
+sudo restart elogind
+sudo sv restart elogind
+sudo xbps-remove elogind
+nc
+man sv
+sudo sv status acpid
+sudo sv up acpid
+sudo nvim /etc/acpi/handler.sh
+nc
+install elogind
+sudo ln -s /etc/sv/elogind /var/service
+wpctl status
+nc
+pkill pipewire
+pipewire
+sudo rm -rf /var/service/elogind
+sudo rm -rf /etc/sv/elogind/
+pipewire
+sudo sv down elogind
+sudo xbps-remove elogind
+pipewire
+exit
+wpctl status
+pipewire
+sudo xbps-install elogind
+pipewire
+sudo ln -s /etc/sv/elogind /var/service
+sv up elogind
+sudo sv up elogind
+pipewire
+v /etc/elogind/logind.conf
+exit
+mpd .config/mpd/mpd.conf
+nc
+clear
+wpctl status
+xbps-query --regex -Rs '^linux[0-9.]+-[0-9._]+' | sort -Vrk2
+exit
+clear
+vkpurge list
+exit
+sudo xbps-remove linux6.1
+sudo xbps-remove linux6.2
+sudo xbps-remove linux6.3
+sudo xbps-remove linux6.15
+clear
+install
+clear
+ani-cli demon slayer
+setxkbmap de
+mv `Downloads/Duran Duran - INVISIBLE.flac` music/
+mpd .config/mpd/mpd.conf
+mpc update
+config nu
+source .config/nushell/config.nu
+mpcp update
+nc
+mpcp load Standart
+nc
+ani-cli evangelion
+config nu
+source .config/nushell/config.nu
+clea
+clear
+ac spy family
+nc
+install
+sudo xbps-remove xeyes
+setxkbmap de
+clear
+ff
+sudo xbps-remove -of
+clear
+ani-cli evangelion
+ls
+sudo reboot
+clear
+exit
+xrandr --output DP-1 --mode 2560x1440 --output eDP1 --mode 1920x1080
+xrandr
+xrandr --output DP-1 --mode 2560x1440 --output eDP-1 --mode 1920x1080
+cd funcgraph/src/
+cler
+clear
+v main.rs
+ls
+v parser/
+v parser/extractor.rs
+cargo run
+cargo run -- --lang java --dir ../test_files/Java.java
+graphiz --version
+install graphiz
+sudo xbps-query -Rs graphi
+sudo xbps-query -Rs graphiz
+sudo xbps-query -Rs graphis
+install graphviz
+cargo run -- --lang java --dir ../test_files/Java.java
+ls
+d feh graph.png
+v ../test_files/Java.java
+cargo run -- --lang java --dir ../test_files/Java.java
+v parser/builder.rs
+v parser/extractor.rs
+cargo run -- --lang java --dir ../test_files/Java.java
+v parser/extractor.rs
+cargo run -- --lang rust --dir ../test_files/Rust.rs
+d feh graph.png
+v parser/builder.rs
+cargo run -- --lang java --dir ../test_files/Java.java
+v ../test_files/Java2.java
+cargo run -- --lang java --dir ../test_files/Java2.java
+v main.rs
+ff
+clear
+cd .config/suckless/slstatus/
+v config.h
+mi
+pkill slstatus
+ff
+clear
+v parser/builder.rs
+cargo run -- --lang java --dir ../test_files/Java2.java
+cargo run -- --lang java --dir ../test_files/Java.java
+v parser/builder.rs
+v parser/extractor.rs
+cargo run -- --lang java --dir ../test_files/Java2.java
+d feh graph.png
+cd funcgraph/src/
+clear
+cargo run -- --lang java --dir ../test_files/Java2.java
+cargo run -- --lang java --dir ../test_files/Java.java
+ac spy family
+mpd .config/mpd/mpd.conf
+nc
+config nu
+loadp
+git add .
+git commit -m "class rework before state"
+v parser/extractor.rs
+cargo run -- --lang java --dir ../test_files/Java.java
+install xclip
+clear
+v ~/.config/nvim/init.lua
+v
+v ~/.config/nvim/init.lua
+v
+clear
+cargo run -- --lang java --dir ../test_files/Java.java
+cat ../test_files/Java.java
+cat ../test_files/Java2.java
+cargo run -- --lang java --dir ../test_files/Java2.java
+v parser/extractor.rs
+v parser/specs/python.rs
+cargo run -- --lang java --dir ../test_files/Java2.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java2.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java2.java
+d feh graph.png
+cargo run -- --lang rust --dir ../test_files/Rust.rs
+d feh graph.png
+ff
+clear
+git add .
+git commit -m "classes are working now"
+git push -u origin main
+cargo run -- --lang python --dir ../test_files/Python.py
+d feh graph.png
+v ../test_files/Java.java
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+git add .
+git commit -m "fixed class referencing bug"
+git push -u origin main
+clear
+ls
+cd ..
+ls
+v README.md
+git add .
+la
+ls src/
+rm -rf graph.png
+cd src/
+clear
+rm -rf graph.png
+clear
+v ../README.md
+v ../test_files/Java.java
+cargo run -- --lang java --dir ../test_files/Java.java
+d feh graph.png
+v ../test_files/Java2.java
+v ../test_files/Python.py
+ls ../test_files/
+clear
+git add .
+cd ..
+git add .
+git commit -m "Small changes"
+git push -u origin main
+v README.md
+git add .
+git commit -m "Updated Readme"
+git push -u origin main
+cd src/
+cargo run -- --lang python --dir ../test_files/Python.py
+d feh graph.png
+v parser/specs/language_spec.rs
+ac spy family
+cd funcgraph/src/
+v ../test_files/Java3.java
+cargo run -- --lang java --dir ../test_files/Java3.java
+d feh graph.png
+v ../test_files/Java3.java
+cargo run -- --lang java --dir ../test_files/Java3.java
+d feh graph.png
+just --version
+install
+clear
+v justfile
+just java1
+just -l
+v justfile
+just java1
+v justfile
+just java1
+v justfile
+just rust
+d feh graph.png
+cat ../test_files/Rust.rs
+feh graph.png
+v parser/extractor.rs
+just rust
+feh graph.png
+just java1
+feh graph.png
+cat ../test_files/Java.java
+cat ../test_files/Java2.java
+just java2
+feh graph.png
+just java3
+feh graph.png
+cat ../test_files/Java3.java
+v parser/extractor.rs
+install flamegraph
+install flame
+cd
+cargo install flamegraph
+flamegraph -v
+flamegraph --v
+flamegraph --version
+cd funcgraph/src/
+cargo build --release
+cd ..
+flamegraph target/release/funcgraph -- --lang rust --dir test_files/Rust.rs
+flamegraph target/release/funcgraph
+flamegraph --help
+flamegraph [-o my_flamegraph.svg] -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+install perf
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+v src/graph.rs
+cd src/
+ls
+just java3
+feh graph.png
+v src/graph.rs
+v graph.rs
+just java3
+feh graph.png
+v graph.rs
+v parser/extractor.rs
+clear
+cd ..
+git add .
+git commit -m "Bug fixes"
+git rm perf.data
+ls
+git rm my_flamegraph.svg
+clear
+v .gitignore
+git push -u origin main
+cd src/
+v input.rs
+cargo run -- -l java -d ../test_files/Java.java
+v justfile
+cargo build --release
+ls
+cd ..
+v Cargo.toml
+cargo build
+v Cargo.toml
+cd src/
+v ../Cargo.toml
+cargo add walkthrough
+cargo add walkdir
+rustup update
+cargo update
+v input.rs
+just java3
+cargo run -- -l java -d ../test_files/
+v input.rs
+v parser/builder.rs
+cargo run -- -l java -d ../test_files/
+v parser/builder.rs
+cargo run -- -l java -d ../test_files/
+v parser/builder.rs
+cargo run -- -l java -d ../test_files/
+v parser/builder.rs
+cargo run -- -l java -d ../test_files/
+cargo run -- -l rust -d ../test_files/
+v parser/specs/rust.rs
+cargo run -- -l rust -d ../test_files/
+v parser/builder.rs
+cd ..
+git add .
+git commit -m "Development state for multiple files, still working"
+git push -u origin main
+v parser/builder.rs
+cd src
+v parser/builder.rs
+cargo run -- -l rust -d ../test_files/
+v parser/builder.rs
+cargo run -- -l rust -d ../test_files/
+mkdir ../test_files/test_dir/
+v ../test_files/test_dir/Rust2.rs
+cargo run -- -l rust -d ../test_files/
+v parser/builder.rs
+ls .cache
+ls .cache/mozilla/
+v .cache/mozilla/firefox/ly15br3l.default-default/
+v .cache/mozilla/firefox/ly15br3l.default-default/activity-stream.contile.json
+sv down bluetoothctl
+sudo sv down /var/service/bluetoothd
+sudo rm -rf /etc/sv/bluetoothd/
+sudo rm -rf /var/service/bluetoothd/
+sudo xbps-remove -R bluetoothd
+sudo xbps-remove -R bluetoothctl
+sudo xbps-query -Rs bluetooth
+sudo xbps-remove -R bluez
+sudo xbps-remove -of
+sudo xbps-remove sbc
+clear
+ac spy family
+clear
+cd funcgraph/
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+v src/graph.rs
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+cargo build --release
+v src/graph.rs
+just java3
+cd src/
+just java3
+v src/graph.rs
+v graph.rs
+just java3
+v graph.rs
+just java3
+v graph.rs
+just java3
+d feh graph.png
+cargo build --release
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+cd ..
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+cd src/
+v graph.rs
+just java3
+d feh graph.png
+feh graph.png
+cat ../test_files/Java3.java
+feh graph.png
+just java3
+feh graph.png
+just java2
+feh graph.png
+just java1
+feh graph.png
+just rust
+feh graph.png
+cat graph.rs
+v graph.rs
+just rust
+d feh graph.png
+v graph.rs
+d feh graph.png
+just rust
+d feh graph.png
+just java1
+d feh graph.png
+v graph.rs
+v main.rs
+just rust
+d feh graph.png
+v justfile
+just java1
+v justfile
+just java1
+d feh graph.png
+v justfile
+just java1
+d feh graph.png
+v justfile
+just java1
+d feh graph.png
+cargo run -- -l
+cargo run -- -l rust -e
+cargo run -- --help
+cargo run -- -V
+clear
+cargo build --release
+cd ..
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+cd src
+v graph.rs
+cargo build
+cargo run -- --help
+v graph.rs
+cargo build
+cargo run -- --help
+v graph.rs
+v input.rs
+cargo build
+cargo run -- --help
+v input.rs
+just java1
+d feh graph.png
+just java2
+d feh graph.png
+just java3
+d feh graph.png
+just rust
+d feh graph.png
+v graph.rs
+just rust
+d feh graph.png
+cargo run -- -l rust -d ../test_files/Rust.rs -e neato
+d feh graph.png
+cargo run -- -l rust -d ../test_files/Rust.rs -e fdp
+d feh graph.png
+just java1
+d feh graph.png
+cargo run -- -l rust -d ../test_files/Rust.rs -e twopi
+d feh graph.png
+cargo run -- -l rust -d ../test_files/Rust.rs -e sfdp
+d feh graph.png
+cargo build --release
+cd ..
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+neato --v
+neato -v
+clear
+v graph.rs
+cd src
+v graph.rs
+cargo build --release
+cd ..
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+ls
+cat perf.data.old
+rm -rf perf.data.old
+clear
+ls
+rm -rf graph.png
+mv my_flamegraph.svg svg_graph.svg
+cd src/
+v graph.rs
+cargo build --release
+cd ..
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+mv my_flamegraph.svg png_graph.svg
+clear
+v src/graph.rs
+ls src/
+rm -rf src/graph.png
+clear
+cd funcgraph/
+d feh svg_graph.svg
+d feh png_graph.svg
+d feh svg_graph.svg
+cd funcgraph/src/
+v parser/extractor.rs
+cargo build --release
+v parser/extractor.rs
+cargo add rayon
+rustup update
+cargo update
+clear
+v parser/extractor.rs
+just java1
+d feh svg_graph.svg
+d feh graph.svg
+v justfile
+just java1
+d feh graph.svg
+cd ..
+clear
+cd src/
+cargo build --release
+cd ..
+flamegraph -o my_flamegraph.svg -- target/release/funcgraph --lang rust --dir test_files/Rust.rs
+d feh my_flamegraph.svg
+d feh funcgraph/svg_graph.svg
+mkdir goals
+mv my_flamegraph.svg threaded.svg
+mv threaded.svg goals/
+mv svg_graph.svg
+mv svg_graph.svg goals/
+ls
+rm -rf png_graph.svg
+rm -rf perf*
+rm -rf graph.svg
+clear
+git add .
+git commit -m "Performance optimizations through rayon and engine switcher"
+clear
+v Cargo.toml
+git add .
+git commit -m "Version switch"
+clear
+v README.md
+git add .
+git push -u origin main
+ac lord of myste
+exit
+clear
+rm -rf fn_py.sh
+rm -rf test.py
+clear
+mut x = 1 ; loop { if $x < 1000 { echo "def f"$x"():\n\n    f"$x+1"()" } else { break } ; $x = $x + 1 }
+mut x = 1 ; loop { if $x < 1000 { echo "def f"$x"():\n\n    f"$x+1"()" >> python.py } else { break } ; $x = $x + 1 }
+ls
+mut x = 1 ; loop { if $x < 1000 { echo "def f"$x"():\n\n    f"$x+1"()" >> python.py ; break } ; $x = $x + 1 }
+ls
+la
+cat .bash_history
+rm -rf .bash_history
+clear
+la
+ls apps/
+mut x = 1 ; loop { if $x < 1000 { echo "def f"$x"():\n\n    f"$x+1"()" >> python.py ; break } ; $x = $x + 1 } ; $x
+> mut x = 0; loop { if $x > 10 { break }; $x = $x + 1 }; $x
+mut x = 0; loop { if $x > 10 { break }; $x = $x + 1 }; $x
+cd .config/suckless/slstatus/
+v config.h
+mi
+pkill slstatus
+d slstatus
+v config.h
+mi
+pkill slstatus
+v config.h
+pkill slstatus
+d slstatus
+mi
+ac dandadan
+mut x = 0; loop { if $x < 1000 { echo "Test" } else { break } ; $x = $x + 1 }
+mut x = 0; loop { if $x < 1000 { echo "Test" } else { break } ; $x = $x + 1 } ; x
+mut x = 0; loop { if $x < 1000 { echo "Test" } else { break } ; $x = $x + 1 } ; $x
+mut x = 0; loop { if $x < 1000 { echo "Test" >> test.txt } else { break } ; $x = $x + 1 } ; $x
+ls
+mut x = 0; loop { if $x < 1000 { "test" } else { break } ; $x = $x + 1 } ; $x
+mut x = 0; loop { if $x < 1000 { "test" } else { break } ; $x = $x + 1 }
+python3 --version
+v gen_func.py
+touch func.py
+v gen_func.py
+python3 gen_func.py
+ls
+cat func.py
+clear
+cd funcgraph/
+cargo build --release
+cd src
+cargo build --release
+cargo update
+v ../Cargo.toml
+cargo --v
+cargo -v
+cargo -V
+rustup update
+install
+cargo run -- -l rust -d ../test_files/Rust.rs -e sfdp
+cargo update
+v ../Cargo.toml
+cargo build
+cargo add rayon
+cargo add tree_sitter
+cargo add tree-sitter-rs
+cargo add tree-sitterrs
+cargo add graphviz
+cargo add clap
+cargo build
+cargo add tree-sitter-rust
+cargo add tree-sitter-java tree-sitter-python walkdir
+clear
+cargo build
+cargo update
+cd ..
+v Cargo.toml
+cargo update
+v Cargo.toml
+cargo update
+cd src
+just java1
+cargo build
+clear
+cargo build --release
+../target/release/funcgraph -l python -d ~/func.py -e fdp
+d feh graph.svg
+../target/release/funcgraph -l python -d ~/func.py -e sfdp
+d feh graph.svg
+ls
+flamegraph -o flamegraph.svg --  ../target/release/funcgraph -l python -d ~/func.py -e sfdp
+d feh flamegraph.svg
+../target/release/funcgraph -l python -d ~/func.py -e twopi
+d feh flamegraph.svg
+d feh graph.svg
+../target/release/funcgraph -l python -d ~/func.py -e sfdp
+d feh graph.svg
+v graph.rs
+cd
+v gen_func.py
+python3 gen_func.py
+cd funcgraph/src/
+cargo build --release
+flamegraph -o flamegraph.svg --  ../target/release/funcgraph -l python -d ~/func.py -e sfdp
+d flamegraph.svg
+d feh flamegraph.svg
+../target/release/funcgraph -l python -d ~/func.py -e sfdp
+ls
+rm -rf perf*
+d feh graph.svg
+rm -rf graph.svg
+mv st-gruvbox-dark-0.8.5.diff .config/suckless/patches/
+cd .config/suckless/
+ls
+rm -rf st_backup/
+cp st st_backup
+cp -r st st_backup
+cd st
+patch -p1 < ../patches/st-gruvbox-dark-0.8.5.diff
+cd .config/suckless/st
+clear
+v config.h
+mi
+ls
+clear
+cd
+clear
+ff
+clear
+ff
+cd .config/suckless/
+rm -rf patches/st-gruvbox-dark-0.8.5.diff
+rm -rf st
+cp -r st_backup/ st
+cd st
+mi
+clear
+install
+sudo xbps-remove inih
+sudo xbps-remove exiv2
+sudo xbps-remove libkexiv2
+sudo xbps-remove libogg
+sudo xbps-remove celt
+sudo xbps-remove libjack
+clear
+cd ~/.config/nvim/
+v init.lua
+la
+ls lua
+v lua/chadrc.lua
+v
+cd
+v funcgraph/src/graph.rs
+cd funcgraph/src/
+just java1
+v graph.rs
+just java1
+v graph.rs
+just java1
+v graph.rs
+rg -c def ~/func.py
+v ~/gen_func.py
+python3 ~/gen_func.py
+ls
+rm -rf func.py
+cd
+python3 ~/gen_func.py
+cd funcgraph/src/
+cargo run -- -l python -d ~/func.py -e fdp
+d feh graph.svg
+cargo run -- -l python -d ~/func.py -e sfdp
+d feh graph.svg
+cd
+v ~/gen_func.py
+python3 ~/gen_func.py
+cd funcgraph/src/
+cargo run -- -l python -d ~/func.py -e sfdp
+d feh graph.svg
+cd
+v ~/gen_func.py
+python3 ~/gen_func.py
+cd funcgraph/src/
+cargo run -- -l python -d ~/func.py -e sfdp
+d feh graph.svg
+cargo run -- -l python -d ~/func.py -e fdp
+d feh graph.svg
+cargo run -- -l python -d ~/func.py
+d feh graph.svg
+cargo run -- -l python -d ~/func.py -e twopi
+d feh graph.svg
+cargo install cargo-callgraph<\n>cargo callgraph --output-format dot | dot -Tsvg -o callgraph.svg<\n>
+cargo install cargo-callgraph
+cargo install callgraph
+cargo install cargo-llvm-callgraph
+cargo install callgraph-rs
+cargo install callgraph-rust
+cargo install callgraph
+clear
+cd ..
+git add .
+git status
+cd
+cler
+clear
+git clone git@github.com:Doom-Git/crabviz.git
+clear
+cd crabviz/
+ls
+rg .gitignore
+v editors/code/src/command-manager.ts
+install vscodium
+install codium
+install code
+install vscode
+sudo xbps-remove vscode
+v editors/code/src/command-manager.ts
+cd ..
+rm -rf crabviz/
+clear
+cd .config/
+git add .
+cd suckless/slock/
+rm -rf .git
+cd ~/.config

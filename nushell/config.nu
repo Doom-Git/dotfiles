@@ -20,7 +20,7 @@
 $env.config.show_banner = false
 
 
-source ~/catppuccin_mocha.nu
+source ./catppuccin_mocha.nu
 
 # Aliases
 alias d = devour
@@ -34,9 +34,11 @@ alias nc = ncmpcpp
 alias v = nvim
 alias sol = wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
 alias soh = wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
-alias mpcu = mpc -p 6492 update
+alias mpcp = mpc -p 6492
 def dsize [...dir] { ls ($dir | str join) | get size | math sum }
 alias locate = sudo xbps-query -f
+alias loadp = mpc -p 6492 load Standart
+alias ac = ani-cli
 
 
 # Exports
