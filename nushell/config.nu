@@ -29,17 +29,32 @@ alias install = sudo xbps-install -Suy
 alias ff = fastfetch --config ~/.config/fastfetch/config.jsonc
 alias shut = sudo shutdown -f -h now
 alias mi = sudo make install
-alias pc = peaclock  --config-dir ~/.config/peaclock/
 alias nc = ncmpcpp
 alias v = nvim
 alias sol = wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
 alias soh = wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
 alias mpcp = mpc -p 6492
-def dsize [...dir] { ls ($dir | str join) | get size | math sum }
 alias locate = sudo xbps-query -f
 alias loadp = mpc -p 6492 load Standart
 alias ac = ani-cli
+alias img = d st -e feh -F
 
+
+def dsize [...dir] {
+  let entries = la ($dir | str join)
+  mut total = 0
+
+  for entry in $entries {
+    if ($entry.type == "file") {
+      $total += ($entry.size | into int)
+    } else if ($entry.type == "dir") {
+      let subtotal = dsize $entry.name
+      $total += $subtotal
+    }
+  }
+
+  return $total
+}
 
 # Exports
 # export-env XDG_RUNTIME_DIR=/run/user/$(id -u)
@@ -49,5 +64,5 @@ alias ac = ani-cli
 clear
 ff
 cowsay Enter the void!
-
+echo "\n"
 

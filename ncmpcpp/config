@@ -13,7 +13,7 @@ ncmpcpp_directory = ~/.config/ncmpcpp
 ##### connection settings #####
 mpd_host = localhost
 mpd_port = 6492
-mpd_music_dir = ~/music/
+mpd_music_dir = ~/media/music/
 #
 #mpd_crossfade_time = 5
 #

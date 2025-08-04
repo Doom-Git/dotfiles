@@ -3522,3 +3522,878 @@ git add .
 cd suckless/slock/
 rm -rf .git
 cd ~/.config
+git add .
+git status
+git commit -m "Neovim theme/changes, new suckless tools, mpd changes"
+git push -u origin main
+clear
+ls
+clear
+v nushell/config.nu
+ls
+cd nushell/
+v env.nu
+source env.nu
+let-env PROMPT_COMMAND_RIGHT = ""
+v env.nu
+source env.nu
+clear
+cd ..
+onefetch
+clear
+install
+clear
+cd
+mv dmenu-gruvbox-20210329-9ae8ea5.diff .config/suckless/patches/
+cd .config/suckless/
+cp -r dmenu/ dmenu_backup
+cd dmenu/
+patch -p1 < ../patches/dmenu-gruvbox-20210329-9ae8ea5.diff
+cd .config/suckless/dmenu/config.h
+cd .config/suckless/dmenu/
+v config.h
+chmod +w *
+clear
+mi
+exit
+cd .config/suckless/dmenu/
+rm -rf config.def.h
+mi
+v ../dwm/config.h
+mi
+cd ../dwm
+mi
+exit
+cd .config/suckless/dmenu/
+dmenu 
+cd ../dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dmenu/
+v config.h
+cd ../dwm
+mi
+exit
+v .config/suckless/dwm/config.h
+exit
+ls
+mkdir pictures
+mkdir pictures/screenshot
+rg screen .config/suckless/dwm/config.h
+mv pictures/screenshot/ pictures/screenshots
+ls pictures/
+clear
+ls pictures/screenshots/
+cd .config/suckless/dwm/
+v dwm.c
+v config.h
+v dwm.c
+mi
+v config.h
+mi
+v config.h
+mi
+v config.h
+v dwm.c
+mi
+sv status elogind
+sudo sv status elogind
+sudo sv status acpid
+sudo v /etc/elogind/logind.conf
+sudo nvim /etc/elogind/logind.conf
+sudo sv reload elogind
+sudo reboot
+exit
+ls pictures/screenshots/
+scrot ~/pictures/screenshots/screen.png
+ls pictures/screenshots/
+cd .config/suckless/dwm/
+v config.h
+clear
+mi
+exit
+pkill pipewire
+ls pictures/screenshots/
+d feh pictures/screenshots/screen.png
+cd .config/suckless/dwm/
+v dwm.c
+mi
+exit
+clear
+ls pictures/screenshots/
+d feh pictures/screenshots/screen_000.png
+scrot ~/pictures/screenshots/screen.png
+d feh pictures/screenshots/screen_001.png
+rm -rf pictures/screenshots/*
+scrot -m ~/pictures/screenshots/screen.png
+d feh pictures/screenshots/screen.png
+clear
+cd .config/suckless/dwm/
+v config.h
+v dwm.c
+mi
+exit
+pkill pipewire
+d feh pictures/screenshots/2025-08-01-17:09:45-screenshot.png
+rm -rf pictures/screenshots/*
+cd .config/suckless/dwm/
+v dwm.c
+mi
+exit
+pkill pipewire
+clear
+d feh pictures/screenshots/2025-08-01-17:09:45-screenshot.png
+d feh pictures/screenshots/2025-08-01-17:11:20-screenshot.png
+d feh pictures/screenshots/2025-08-01-17:11:50-screenshot.png
+rm -rf pictures/screenshots/*
+clear
+install mss
+python -m pip install -U --user mss
+clear
+python install pip
+python -m pip
+install pip
+install maim
+clear
+maim
+maim pictures/screenshots/sreen.png
+d feh pictures/screenshots/sreen.png
+xrandr
+maim -s
+maim -s pictures/screenshots/sreen.png
+d feh pictures/screenshots/sreen.png
+clear
+d feh pictures/screenshots/sreen.png
+xdotool
+install xdotool
+clear
+maim -i $(xdotool getactivewindow) ~/mypicture.jpg
+exit
+clear
+xdotool getactivewindow
+maim -i $(xdotool getactivewindow) ~/mypicture.jpg
+let screen = xdotool getactivewindow ; maim -i $screen ~/screen.png
+d feh screen.png
+let screen = xdotool getactivewindow ; maim -i $screen ~/screen.png ; $screen
+d feh screen.png
+let screen = xdotool getactivewindow ; maim -i $screen ~/screen.jpg
+d feh screen.jpg
+clear
+sudo xbps-remove -R scrot
+clear
+let screen = xdotool getactivewindow ; maim -i $screen ~/screen.png
+d feh screen.png
+clear
+v .config/suckless/dwm/config.h
+cd .config/suckless/dwm/
+v dwm.c
+mi
+d pipewire
+exit
+pkill pipewire
+clear
+d feh pictures/screenshots/sreen.png
+rg maim .config/suckless/dwm/dwm.c
+echo $SHELL
+clear
+exit
+clear
+cd .config/suckless/dwm/
+v config.h
+mi
+v dwm.c
+mi
+cd
+chmod +x sc.sh
+ls
+rm -rf *.jpg *.png
+./sc.sh
+cd .config/suckless/dwm/
+v dwm.c
+mi
+cd
+rm -rf sc.sh
+exit
+d feh pictures/screenshots/sreen.png
+clear
+ls
+xdotool getactivewindow
+ls pictures/screenshots/
+ls
+v sc.sh
+chmod +x sc.sh
+./sc.sh
+d feh pictures/screenshots/testscreen.png
+ls pictures/screenshots/
+d feh pictures/screenshots/%Y-%m-%d-%T-screenshot.png
+ls pictures/screenshots/
+d feh pictures/screenshots/%Y-%m-%d-%T-screenshot.png
+clear
+cd .config/suckless/dwm/
+v dwm.c
+mi
+pkill pipewire
+exit
+wpctl status
+clear
+ls pictures/screenshots/
+d feh pictures/screenshots/screenshot.png
+rm -rf pictures/screenshots/*
+clear
+maim ~/pic.png
+d feh pic.png
+maim ~/pic.jpg
+d feh pic.jpg
+rm -rf *.jpg *.png
+ls
+rm -rf sc.sh
+mv *.py funcgraph/test_files/
+clear
+la | wc
+la
+ls .debug
+rm -rf .bash_history
+clear
+ls
+la
+ls .lyrics/
+rm -rf .lyrics/
+mv wallpaper/ pictures/
+v .dwm/autostart.sh
+v .xinitrc
+v .dwm/autostart.sh
+v .xinitrc
+exit
+wpctl status
+v .xinitrc
+pkill pipewire
+exit
+wpctl status
+clear
+rm -rf .dwm
+clear
+v .xinitrc
+rm -rf .config/suckless/patches/dwm-autostart-20210120-cb3f58a.diff
+cd .config/suckless/dwm
+v config.h
+v dwm.c
+ls
+v drw.c
+v util.c
+mi
+v dwm.c
+mi
+exit
+pkill pipewire
+clear
+cd .config/suckless/dwm
+v dwm.c
+sleep 5
+sleep 5s
+sleep 1000
+sleep --help
+sleep 5sec
+clear
+v dwm.c
+exit
+clear
+cd .config/suckless/dwm
+v dwm.c
+mi
+exit
+pkill pipewire
+clear
+ls pictures/screenshots/
+d feh pictures/screenshots/screenshot.png
+ls pictures/screenshots/
+d feh pictures/screenshots/screenshot.png
+install
+ff
+clear
+ffmpeg -y \<\n>         -hide_banner \<\n>         -loglevel error \<\n>         -f x11grab \<\n>         -video_size "$RESOLUTION" \<\n>         -i "$DISPLAY" \<\n>         -vframes 1 \<\n>         ~/Downloads/screenshot_"$(date +'%Y-%d_%b-%H_%M_%S')".png
+exit
+xrandr
+ffmpeg -y \<\n>         -hide_banner \<\n>         -loglevel error \<\n>         -f x11grab \<\n>         -video_size "1920x1080" \<\n>         -i "$DISPLAY" \<\n>         -vframes 1 \<\n>         ~/Downloads/screenshot_"$(date +'%Y-%d_%b-%H_%M_%S')".png
+ffmpeg -y <\n>         -hide_banner <\n>         -loglevel error <\n>         -f x11grab<\n>         -video_size "1920x1080"<\n>         -i "$DISPLAY" <\n>         -vframes 1<\n>         ~/Downloads/screenshot_"$(date +'%Y-%d_%b-%H_%M_%S')".png
+clear
+exit
+clear
+maim -g 2560x1440+1920+0 mypic.png
+feh mypic.png
+d feh mypic.png
+man feh
+d feh -F mypic.png
+xdotool getactivewindow
+sudo makewhatis /usr/share/man
+man feh
+clear
+man feh
+d feh -Fx mypic.png
+man xrandr
+man xrandr | rg position
+man xrandr | rg current
+xrandr --current
+sudo xbps-remove -R xdotool
+sudo xbps-remove -of
+xdpyinfo | rg resolution
+xdpyinfo | rg dimensions
+ffmpeg -y          -hide_banner          -loglevel error          -f x11grab          -video_size "2560x1440+1920+0"          -i ":0"          -vframes 1          ~/Downloads/screenshot_"$(date +'%Y-%d_%b-%H_%M_%S')".png
+maim ~/s.png
+ls
+d feh s.png
+xdpyinfo | rg dimensions
+xpdyinfo | rg dimensions
+mime s2.png
+xdpyinfo | rg dimensions | rg *x
+xdpyinfo | rg dimensions | rg 4480x*
+xdpyinfo | rg dimensions | rg 1080
+v .bashrc
+source .bashrc
+exit
+d pipewire
+exit
+wpctl status
+pkill pipewire
+clear
+cd .config/suckless/dwm
+v dwm.c
+mi
+d pipewire
+exit
+ls
+wpctl status
+pkill pipewire
+clear
+wpctl status
+v .xinitrc
+clear
+xdpyinfo | rg dimensions | rg 1080
+v dim.sh
+clear
+chmod +x dim.sh
+./dim.sh
+v dim.sh
+./dim.sh
+v dim.sh
+xrandr | awk '(/current/){print $8 "x" $10 }' | sed 's/,//'
+v dim.sh
+./dim.sh
+d feh pictures/screenshots/2025-08-01_22:49:04.png
+config nu
+source .config/nushell/config.nu
+clear
+img
+clear
+ls
+rm -rf *.png
+ls
+rm -rf brot.txt
+clear
+rm -rf pictures/screenshots/*
+ls
+dim.sh
+./dim.sh
+clear
+img pictures/screenshots/2025-08-01_22:51:52.png
+clear
+mv dim.sh .config/suckless/dwm/
+cd .config/suckless/dwm
+clear
+v dwm.c
+mi
+d pipewire
+exit
+wpctl status
+clear
+img pictures/screenshots/2025-08-01_22:51:52.png
+d feh -Fx pictures/screenshots/2025-08-01_22:51:52.png
+config nu
+source .config/nushell/config.nu
+clear
+img pictures/screenshots/2025-08-01_22:51:52.png
+d feh -F pictures/screenshots/2025-08-01_22:51:52.png
+ls pictures/screenshots/
+v .config/suckless/dwm/dwm.c
+cd .config/suckless/dwm
+mi
+clear
+~/.config/suckless/dwm/dim.sh
+ls ~/pictures/screenshots/
+rm -rf ~/pictures/screenshots/*
+clear
+exit
+wpctl status
+ls ~/pictures/screenshots/
+img pictures/screenshots/2025-08-01_22:59:13.png
+d feh pictures/screenshots/2025-08-01_22:59:13.png
+install
+clear
+man feh
+d feh --fullscreen pictures/screenshots/2025-08-01_22:59:13.png
+install mwm
+install mwm-hints
+sudo xbps-query -Rs mwm
+install motif-mwm
+d feh --fullscreen pictures/screenshots/2025-08-01_22:59:13.png
+motif-mwm
+man motif-mwm
+sudo xbps-remove -R motify-mwm
+sudo xbps-remove -R motif-mwm
+clear
+feh -F pictures/screenshots/2025-08-01_22:59:13.png
+htop
+st
+clear
+st -e feh -F pictures/screenshots/2025-08-01_22:59:13.png
+config nu
+source .config/nushell/config.nu
+img pictures/screenshots/2025-08-01_22:59:13.png
+d img pictures/screenshots/2025-08-01_22:59:13.png
+d st -e feh -F pictures/screenshots/2025-08-01_22:59:13.png
+config nu
+source .config/nushell/config.nu
+clear
+img pictures/screenshots/2025-08-01_22:59:13.png
+clear
+img pictures/screenshots/2025-08-01_23:07:31.png
+img pictures/screenshots/2025-08-01_23:16:25.png
+clear
+ac steins gate
+install
+xbps-install -u xbps
+sudo xbps-install -u xbps
+install
+sudo xbps-remove -R harfbuzz
+sudo xbps-remove -of
+clear
+ac -U
+ac lord of myste
+setxkbmap de
+install
+pc
+sudo xbps-remove -R peaclock
+config nu
+ls .config/
+rm -rf .config/peaclock/
+clear
+dsize .config/
+dsize .
+cd ..
+dsize mario/
+cd mario/
+dsize music/
+config nu
+clear
+la
+config nu
+source .config/nushell/config.nu
+dsize music/
+dsize .
+config nu
+source .config/nushell/config.nu
+dsize .
+ls
+ls music/
+la .
+config nu
+source .config/nushell/config.nu
+dsize .
+source .config/nushell/config.nu
+config nu
+source .config/nushell/config.nu
+dsize .
+dsize music/
+config nu
+source .config/nushell/config.nu
+dsize music/
+config nu
+source .config/nushell/config.nu
+dsize music/
+config nu
+source .config/nushell/config.nu
+config nu
+source .config/nushell/config.nu
+config nu
+source .config/nushell/config.nu
+dsize music/
+dsize music/ | format filesize
+format filesize dsize music
+format filesize (dsize music)
+format filesize 1774258062
+1774258062 | format filesize
+format filesize | 1774258062
+dsize music/ | format filesize MB
+dsize music/ | format filesize Mb size
+ls music | format filesize MB size
+ls music | format filesize MB
+ls | format filesize KB size
+ls | format filesize kB size
+ls | format filesize EiB size
+clear
+dsize music/ | into filesize MB
+dsize music/ | into filesize
+dsize . | into filesize
+la
+v .zcompdump
+v .inputrc
+ls .debug/
+clear
+install
+sudo xbps-remove -of
+clear
+cmatrix
+tr
+tr --help
+sudo xbps-remove tr
+install tr
+clear
+man tr
+clear
+ls .config/m*
+cd .config/mpv/
+ls
+la
+clear
+cd
+cd .config/mpv/
+v mpv.conf
+cd
+mpv
+locate ani-cli
+sudo ls /bin/an*
+sudo ls /bin/a*
+install ani-cli
+clear
+cd /usr/local
+ls bin/an*
+cd
+mkdir media
+mv music media
+mv pictures/ media/
+v .config/ncmpcpp/config
+v .config/mpd/mpd.conf
+clear
+cd .config/suckless/dwm
+v dwm.c
+v dim.sh
+cd
+mkdir media/anime
+cd media/anime/
+mkdir Steins Gate
+cd Steins/
+cd ..
+ls
+rm -rf Steins/ Gate/
+mkdir Steins_Gate
+cd Steins_Gate/
+clear
+ac one piece
+ac steins gate -d -e 2 24
+ac steins gate
+ac Steins;Gate -d -e 2 24
+ac "Steins;Gate" -d -e 2 24
+exit
+clar
+clear
+cd
+clear
+ac -U
+config nu
+v .bashrc
+clear
+v funcgraph/src/graph.rs
+rg -c *.diff
+ls
+mv *.diff .config/suckless/patches/
+cd .config/suckless/dwm
+v ../patches/dwm-notitle-20210715-138b405.diff
+cd ..
+ls
+rm -rf dwm_backup/
+mv dwm dwm_backup
+ls
+git clone https://git.suckless.org/dwm
+cd dwm
+sudo make clean install
+exit
+ls
+clear
+cd .config/suckless/
+rm -rf dwm
+mv dwm_backup/ dwm
+cd dwm
+sudo make clean install
+exit
+v .xinitrc
+cd .config/suckless/
+cp -r dwm dwm_backup
+cd dwm
+patch -R ../patches/dwm-notitle-20210715-138b405.diff
+patch -R < ../patches/dwm-notitle-20210715-138b405.diff
+ls
+cd .config/suckless/dwm
+v config.h
+v <.rej
+v dwm.c
+mi
+v dwm.c
+mi
+v config.h
+mi
+exit
+pkill pipewire
+clear
+cd .config/suckless/
+rm -rf patches/dwm-notitle-20210715-138b405.diff
+cd dwm
+patch -p1 < ../patches/dwm-centretitle-20200907-61bb8b2.diff
+cd .config/suckless/dwm
+v dwm.c
+mi
+d pipewire
+exit
+cd .config/suckless/dwm
+ls
+cat <.rej
+patch -b
+patch -b < <.orig
+mi
+exit
+cd .config/suckless/dwm
+clear
+patch -b < ../patches/dwm-centretitle-20200907-61bb8b2.diff
+clear
+v <.orig
+ls
+cd .config/suckless/dwm
+v dwm.c
+mi
+exit
+cd .config/suckless/dwm
+sudo make clean install
+v <.rej
+mi
+exit
+cd .config/suckless/dwm
+cd
+v apps/zen/
+cd apps/zen
+ls
+rg navigator
+rg Nav
+./zen
+./zen-bin
+rg Nav*
+rg Nav* */**
+rg Nav* updates/
+la | where type == dir
+rg Nav icons/
+rg Nav* icons/
+cd
+install xdotool
+install
+clear
+xdotool search --name "Navigator" set_window --name "Zen Browser"
+xdotool search --name "Navigator"
+man xdotool
+xdotool search --classname "Navigator"
+xdotool search --classname "Navigator" set_window --classname "Zen Browser"
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v dwm.c
+v config.h
+xdotool search --class "Navigator"
+xdotool search --class "Zen"
+cd .config/suckless/dwm
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+cd .config/suckless/st
+v config.h
+mi
+v config.h
+mi
+picom --config ~/.config/picom/picom.conf
+clear
+pkill pipewire
+clear
+cd .config/suckless/dwm
+v config.h
+mi
+d pipewire
+exit
+xdotool search --class "st"
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+clear
+cd .config/suckless/dwm
+v config.h
+mi
+exit
+clear
+pkill slstatus
+slstatus
+d slstatus
+d slstatus
+exit
+pkill pipewire
+clear
+table --list | each {|r| print ($r); print (ls | first 3 | table --theme $r)}
+curl -s https://ohmyposh.dev/install.sh | bash -s
+oh-my-posh init st
+ls
+la
+ls /bin/oh*
+ls /bin/o*
+oh-my-posh
+exit
+oh-my-posh
+exit
+clear
+curl -s https://ohmyposh.dev/install.sh | bash -s
+./.local/bin/oh-my-posh
+./.local/bin/oh-my-posh init st
+./.local/bin/oh-my-posh init nu
+config nu
+source .config/nushell/config.nu
+cd .config/nushell/
+ls
+cd
+ls .config/
+gimp --v
+rm -rf .config/GIMP/
+v .config/nushell/env.nu
+./.local/bin/oh-my-posh init nu --config emodipt-extend
+clear
+ls
+cd .config/
+clear
+htop
+install qutebrowser
+dsize apps/zen
+cd 
+dsize apps/zen/
+dsize apps/zen/ | into filesze
+dsize apps/zen/ | into filesize
+clear
+qutebrowser
+ls .config/
+rm -rf .config/fontforge/
+sudo xbps-remove wal
+sudo xbps-remove pywal
+rm -rf .config/wal/
+clear
+ls .config
+rm -rf .config/powerlevel10k/
+dsize .config/ | into filesize 
+clear
+htop
+htop | lolcat
+install lolcat
+clear
+install lolcat
+cd .config/qutebrowser/
+la
+ls
+clear
+ls
+cd
+ls
+clear
+st -c 
+ls
+st -c .local/bin/oh-my-posh
+ls
+clear
+la
+ls
+clear
+cd .config/qutebrowser/
+ls
+ls greasemonkey/
+la
+v config.py
+clar
+clear
+ls
+cd
+cd .config/suckless/
+ls
+cp -r dwm dwm_backup
+rm -rf dwm_backup/
+cp -r dwm dwm_backup
+clear
+cd dmenu/
+ls ../patches/dmenu*
+patch -p2 < ../patches/dmenu-center-20250407-b1e217b.diff
+ls
+clear
+cd .config/suckless/dmenu
+v <.rej
+rm -rf <*
+patch -p1 < ../patches/dmenu-center-20250407-b1e217b.diff
+v config.h
+v dmenu.1
+v dmenu.c
+mi
+dmenu -c
+clear
+ls
+cd ../dwm
+v config.h
+mi
+v config.h
+mi
+d pipewire
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+v config.h
+mi
+clear
+v config.h
+mi
+exit
+cd .config/suckless/dwm
+v config.h
+mi
+v config.h
+mi
+exit
+wpctl status
+clear
+pkill pipewire
+clear
+exit
+clear
+ls -lh --color=auto --group-directories-first
+ls -lh
+ls -l
+ls -a
+la
+clear
+ls -lh
+ls -lh <\n>--group-directories-first
+ls -lh --group-directories-first
+clear
+cd .config/qutebrowser/
+v config.py
+cd ~/.config
