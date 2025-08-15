@@ -1,0 +1,295 @@
+2025-07-16T16:53:07 update: added /Die with a Smile.mp3
+2025-07-16T20:00:23 player: played "Die with a Smile.mp3"
+2025-07-16T20:10:04 player: played "Die with a Smile.mp3"
+2025-07-17T14:55:45 player: played "Die with a Smile.mp3"
+2025-07-17T15:06:55 update: added /02 - Abracadabra.mp3
+2025-07-17T15:06:55 update: added /EnV-Anubis.mp3
+2025-07-17T15:10:32 update: added /Luminary.mp3
+2025-07-17T15:11:37 player: played "Luminary.mp3"
+2025-07-17T15:17:09 update: added /cure for me.mp3
+2025-07-17T15:17:09 update: removing Luminary.mp3
+2025-07-17T15:18:30 player: played "cure for me.mp3"
+2025-07-17T15:23:04 update: updating /cure for me.mp3
+2025-07-17T15:27:42 player: played "Die with a Smile.mp3"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-17T15:35:53 update: added /Luminary-Joel Sunny.mp3
+2025-07-17T15:35:53 update: added /The Neighbourhood - Softcore.flac
+2025-07-17T15:38:52 player: played "The Neighbourhood - Softcore.flac"
+2025-07-17T15:40:25 update: added /Env - Anubis.flac
+2025-07-17T15:40:25 update: removing EnV-Anubis.mp3
+2025-07-17T15:43:05 player: played "Env - Anubis.flac"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-17T15:43:13 player: played "The Neighbourhood - Softcore.flac"
+2025-07-17T15:43:15 exception: Not playing
+2025-07-17T15:43:16 exception: Not playing
+2025-07-17T15:43:17 exception: Not playing
+2025-07-17T15:44:37 player: played "The Neighbourhood - Softcore.flac"
+2025-07-17T15:45:14 player: played "Env - Anubis.flac"
+2025-07-17T16:33:27 update: added /Lady Gaga - Abracadabra.flac
+2025-07-17T16:33:27 update: added /Toby Fox - Finale.flac
+2025-07-17T16:33:27 update: added /Bossfight - Milky Ways.flac
+2025-07-17T16:33:27 update: added /Toby Fox - It's Showtime!.flac
+2025-07-17T16:33:27 update: added /Toby Fox - His Theme.flac
+2025-07-17T16:33:27 update: added /Bruno Mars - Talking to the Moon.flac
+2025-07-17T16:33:27 update: added /Lady Gaga - Die With A Smile.flac
+2025-07-17T16:33:27 update: added /Max - STRINGS (feat. JVKE & Bazzi) (Stripped Version).flac
+2025-07-17T16:33:27 update: added /Toby Fox - Attack of the Killer Queen.flac
+2025-07-17T16:33:27 update: added /Toby Fox - Dummy!.flac
+2025-07-17T17:01:57 update: added /Beach House - Space Song.flac
+2025-07-17T17:01:57 update: added /Masato Nakamura - Sth1 Green Hill Zone Mega Drive Version.flac
+2025-07-17T17:01:57 update: added /Ummet Ozcan - Ryu.flac
+2025-07-17T17:01:57 update: added /DVRST - Close Eyes.flac
+2025-07-17T17:01:57 update: added /VALORANT - Die For You.flac
+2025-07-17T17:01:57 update: added /txmy - Ethereal (Live Strings Version).flac
+2025-07-17T17:01:57 update: added /Mareux - The Perfect Girl.flac
+2025-07-17T17:01:57 update: added /The Irrepressibles - In This Shirt.flac
+2025-07-17T17:01:57 update: added /Adele - Skyfall.flac
+2025-07-17T17:01:57 update: added /Mareux - The Perfect Girl (The Motion Retrowave Remix).flac
+2025-07-17T17:01:57 update: added /Unlike Pluto - Everything Black.flac
+2025-07-17T17:01:57 update: added /Elton John - I'm Still Standing.flac
+2025-07-17T17:01:57 update: added /Harry Styles - As It Was.flac
+2025-07-17T17:01:57 update: added /KSHMR - Over You (feat. Lovespeake).flac
+2025-07-17T17:26:10 update: added /Ethan Bortnick - doppelgänger.flac
+2025-07-17T17:26:10 update: added /Bo Burnham - Welcome to The Internet.flac
+2025-07-17T17:26:10 update: added /Trespassed - Terrified.flac
+2025-07-17T17:26:10 update: added /Jvke - this is what autumn feels like.flac
+2025-07-17T17:26:10 update: added /Alexander Rybak - Fairytale.flac
+2025-07-17T17:26:10 update: added /Jvke - this is what slow dancing feels like.flac
+2025-07-17T17:26:10 update: added /Jvke - this is what space feels like.flac
+2025-07-17T17:26:10 update: added /The Living Tombstone - It's Been So Long.flac
+2025-07-17T17:26:10 update: added /Jvke - next to you.flac
+2025-07-17T17:26:10 update: added /Toby Fox - MEGALOVANIA.flac
+2025-07-17T17:26:10 update: added /Tin - Ticking.flac
+2025-07-17T17:26:10 update: added /David Kushner - Daylight.flac
+2025-07-17T17:26:10 update: added /Bring Me The Horizon - Can You Feel My Heart.flac
+2025-07-17T17:26:10 update: added /M83 - Solitude (Felsmann + Tiley Reinterpretation).flac
+2025-07-17T17:26:10 update: added /Ethan Bortnick - engravings.flac
+2025-07-17T17:26:10 update: added /Qumu - Gusty Garden Galaxy (From _Super Mario Galaxy_).flac
+2025-07-17T17:26:10 update: added /K-391 - Ignite - Hollaphonic Remix.flac
+2025-07-17T17:26:10 update: added /Cheriimoya - Living Life, In The Night.flac
+2025-07-17T17:26:10 update: added /Jvke - golden hour.flac
+2025-07-17T17:26:10 update: added /1nonly - Mine.flac
+2025-07-17T17:26:10 update: added /Alan Walker - Sing Me to Sleep.flac
+2025-07-17T17:26:10 update: added /Home - Resonance.flac
+2025-07-17T17:26:10 update: added /Ethan Bortnick - arsonists.flac
+2025-07-17T17:26:10 update: added /Sarah Cothran - As the World Caves In.flac
+2025-07-17T17:26:10 update: added /Ethan Bortnick - cut my fingers off.flac
+2025-07-17T17:26:10 update: added /Dove Cameron - Boyfriend.flac
+2025-07-17T17:26:10 update: added /Jvke - this is what falling in love feels like.flac
+2025-07-17T17:26:10 update: added /Jvke - this is what winter feels like.flac
+2025-07-17T17:26:10 update: added /Jvke - Worlds Collide (Inspired by Arcane League of Legends).flac
+2025-07-17T17:26:10 update: added /Jvke - this is what heartbreak feels like.flac
+2025-07-17T17:26:10 update: added /01099 - Glücklich.flac
+2025-07-17T17:26:10 update: added /Martin Arteta - Past Lives.flac
+2025-07-17T17:26:10 update: added /Bruno Mars - Locked out of Heaven.flac
+2025-07-17T17:26:10 update: added /Pixies - Where Is My Mind_ (2007 Remaster).flac
+2025-07-19T15:12:57 player: played "Lady Gaga - Abracadabra.flac"
+2025-07-19T15:16:43 player: played "01099 - Glücklich.flac"
+2025-07-19T15:18:43 player: played "Jvke - this is what falling in love feels like.flac"
+2025-07-19T15:22:27 player: played "02 - Abracadabra.mp3"
+2025-07-19T15:25:20 player: played "Ethan Bortnick - engravings.flac"
+2025-07-19T15:27:46 player: played "Jvke - this is what slow dancing feels like.flac"
+2025-07-19T15:30:24 player: played "Jvke - this is what heartbreak feels like.flac"
+2025-07-19T15:33:12 player: played "K-391 - Ignite - Hollaphonic Remix.flac"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-19T15:38:33 player: played "Luminary-Joel Sunny.mp3"
+2025-07-19T15:41:23 exception: Failed to decode "/home/mario/music/Die with a Smile.mp3"; Failed to open "/home/mario/music/Die with a Smile.mp3": No such file or directory
+2025-07-19T15:42:06 player: played "David Kushner - Daylight.flac"
+2025-07-19T15:42:06 player: played "Die with a Smile.mp3"
+2025-07-19T15:42:06 exception: Failed to decode "/home/mario/music/Die with a Smile.mp3"; Failed to open "/home/mario/music/Die with a Smile.mp3": No such file or directory
+2025-07-19T15:42:06 player: played "Die with a Smile.mp3"
+2025-07-19T15:48:22 player: played "cure for me.mp3"
+2025-07-19T15:51:16 player: played "KSHMR - Over You (feat. Lovespeake).flac"
+2025-07-19T15:54:23 player: played "Bossfight - Milky Ways.flac"
+2025-07-19T15:56:43 player: played "Ethan Bortnick - cut my fingers off.flac"
+2025-07-19T16:09:26 player: played "Jvke - this is what autumn feels like.flac"
+2025-07-19T16:13:47 player: played "Bruno Mars - Locked out of Heaven.flac"
+2025-07-19T16:17:58 player: played "Lady Gaga - Die With A Smile.flac"
+2025-07-19T16:19:58 player: played "Toby Fox - Attack of the Killer Queen.flac"
+2025-07-19T16:23:02 player: played "Elton John - I'm Still Standing.flac"
+2025-07-19T16:27:38 player: played "Bo Burnham - Welcome to The Internet.flac"
+2025-07-19T16:31:20 player: played "M83 - Solitude (Felsmann + Tiley Reinterpretation).flac"
+2025-07-19T16:34:50 player: played "Jvke - golden hour.flac"
+2025-07-19T16:37:02 player: played "DVRST - Close Eyes.flac"
+2025-07-19T16:40:28 player: played "Ummet Ozcan - Ryu.flac"
+2025-07-19T16:43:23 player: played "The Living Tombstone - It's Been So Long.flac"
+2025-07-19T16:49:37 player: played "Qumu - Gusty Garden Galaxy (From _Super Mario Galaxy_).flac"
+2025-07-19T16:50:23 player: played "Toby Fox - It's Showtime!.flac"
+2025-07-19T18:33:10 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-07-19T18:35:45 player: played "Masato Nakamura - Sth1 Green Hill Zone Mega Drive Version.flac"
+2025-07-19T18:39:18 player: played "VALORANT - Die For You.flac"
+2025-07-19T18:42:21 player: played "Alexander Rybak - Fairytale.flac"
+2025-07-19T18:45:59 player: played "Bruno Mars - Talking to the Moon.flac"
+2025-07-19T18:47:44 player: played "Dove Cameron - Boyfriend.flac"
+2025-07-19T22:44:21 player: played "02 - Abracadabra.mp3"
+2025-07-19T22:47:40 player: played "Ethan Bortnick - doppelgänger.flac"
+2025-07-19T22:53:36 exception: Failed to decode "/home/mario/music/Die with a Smile.mp3"; Failed to open "/home/mario/music/Die with a Smile.mp3": No such file or directory
+2025-07-19T22:53:36 player: played "Die with a Smile.mp3"
+2025-07-19T22:53:36 exception: Failed to decode "/home/mario/music/Die with a Smile.mp3"; Failed to open "/home/mario/music/Die with a Smile.mp3": No such file or directory
+2025-07-19T22:54:08 exception: Failed to decode "/home/mario/music/Die with a Smile.mp3"; Failed to open "/home/mario/music/Die with a Smile.mp3": No such file or directory
+2025-07-19T22:54:08 player: played "Die with a Smile.mp3"
+2025-07-19T22:54:08 exception: Failed to decode "/home/mario/music/Die with a Smile.mp3"; Failed to open "/home/mario/music/Die with a Smile.mp3": No such file or directory
+2025-07-19T22:58:23 player: played "Lady Gaga - Die With A Smile.flac"
+2025-07-19T23:01:55 player: played "Home - Resonance.flac"
+2025-07-19T23:03:14 player: played "01099 - Glücklich.flac"
+2025-07-20T14:43:51 update: removing Die with a Smile.mp3
+2025-07-20T14:49:01 player: played "Lady Gaga - Die With A Smile.flac"
+2025-07-20T14:51:25 player: played "01099 - Glücklich.flac"
+2025-07-20T14:53:56 player: played "Max - STRINGS (feat. JVKE & Bazzi) (Stripped Version).flac"
+2025-07-20T14:57:29 player: played "David Kushner - Daylight.flac"
+2025-07-20T15:00:59 player: played "Jvke - golden hour.flac"
+2025-07-20T15:03:24 player: played "Jvke - this is what slow dancing feels like.flac"
+2025-07-20T15:05:57 player: played "Dove Cameron - Boyfriend.flac"
+2025-07-20T15:09:40 player: played "M83 - Solitude (Felsmann + Tiley Reinterpretation).flac"
+2025-07-20T15:13:13 player: played "Home - Resonance.flac"
+2025-07-20T15:13:59 player: played "Toby Fox - It's Showtime!.flac"
+2025-07-20T15:16:19 player: played "Ethan Bortnick - cut my fingers off.flac"
+2025-07-20T15:18:55 player: played "Masato Nakamura - Sth1 Green Hill Zone Mega Drive Version.flac"
+2025-07-20T15:22:02 player: played "Bossfight - Milky Ways.flac"
+2025-07-20T15:27:48 player: played "The Irrepressibles - In This Shirt.flac"
+2025-07-20T15:31:14 player: played "Qumu - Gusty Garden Galaxy (From _Super Mario Galaxy_).flac"
+2025-07-20T15:33:19 player: played "Toby Fox - His Theme.flac"
+2025-07-20T15:36:34 player: played "Mareux - The Perfect Girl.flac"
+2025-07-20T15:40:26 player: played "Alexander Rybak - Fairytale.flac"
+2025-07-20T15:42:56 player: played "Ethan Bortnick - arsonists.flac"
+2025-07-20T15:47:16 player: played "Env - Anubis.flac"
+2025-07-20T15:49:52 player: played "Masato Nakamura - Sth1 Green Hill Zone Mega Drive Version.flac"
+2025-07-20T15:53:32 player: played "Jvke - this is what autumn feels like.flac"
+2025-07-20T15:56:07 player: played "Jvke - next to you.flac"
+2025-07-20T15:58:13 player: played "Toby Fox - His Theme.flac"
+2025-07-20T16:03:33 player: played "Beach House - Space Song.flac"
+2025-07-20T16:06:16 player: played "Jvke - this is what space feels like.flac"
+2025-07-20T22:30:29 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:29 exception: Failed to open audio output
+2025-07-20T22:30:39 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:39 exception: Failed to open audio output
+2025-07-20T22:30:40 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:40 exception: Failed to open audio output
+2025-07-20T22:30:41 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:41 exception: Failed to open audio output
+2025-07-20T22:30:41 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:41 exception: Failed to open audio output
+2025-07-20T22:30:46 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:46 exception: Failed to open audio output
+2025-07-20T22:30:51 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:51 exception: Failed to open audio output
+2025-07-20T22:30:52 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:52 exception: Failed to open audio output
+2025-07-20T22:30:54 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:54 exception: Failed to open audio output
+2025-07-20T22:30:54 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:54 exception: Failed to open audio output
+2025-07-20T22:30:55 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:55 exception: Failed to open audio output
+2025-07-20T22:30:55 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:55 exception: Failed to open audio output
+2025-07-20T22:30:55 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-20T22:30:55 exception: Failed to open audio output
+2025-07-20T22:36:37 player: played "Jvke - this is what winter feels like.flac"
+2025-07-20T22:38:08 player: played "Lady Gaga - Abracadabra.flac"
+2025-07-20T22:39:13 player: played "01099 - Glücklich.flac"
+2025-07-21T19:29:22 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-21T19:29:22 exception: Failed to open audio output
+2025-07-21T19:29:27 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-21T19:29:27 exception: Failed to open audio output
+2025-07-21T19:29:31 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-07-21T19:29:31 exception: Failed to open audio output
+2025-07-21T19:30:54 player: played "01099 - Glücklich.flac"
+2025-07-21T19:31:00 player: played "01099 - Glücklich.flac"
+2025-07-24T18:23:37 player: played "01099 - Glücklich.flac"
+2025-07-24T23:52:47 player: played "01099 - Glücklich.flac"
+2025-07-24T23:52:49 exception: Not playing
+2025-07-24T23:52:50 exception: Not playing
+2025-07-24T23:56:49 exception: Not playing
+2025-07-24T23:59:36 playlist: Failed to load "playlists/01099 - Glücklich.flac".
+2025-07-24T23:59:36 playlist: Failed to load "playlists/Adele - Skyfall.flac".
+2025-07-24T23:59:36 exception: Bad song index
+2025-07-24T23:59:47 playlist: Failed to load "playlists/01099 - Glücklich.flac".
+2025-07-24T23:59:47 playlist: Failed to load "playlists/Adele - Skyfall.flac".
+2025-07-24T23:59:47 exception: Bad song index
+2025-07-25T00:00:08 playlist: Failed to load "playlists/01099 - Glücklich.flac".
+2025-07-25T00:00:08 playlist: Failed to load "playlists/Adele - Skyfall.flac".
+2025-07-25T00:00:08 exception: Bad song index
+2025-07-25T00:00:49 exception: No such playlist
+2025-07-25T00:01:13 player: played "Adele - Skyfall.flac"
+2025-07-25T00:12:54 player: played "Toby Fox - Attack of the Killer Queen.flac"
+2025-07-25T00:18:25 player: played "Alexander Rybak - Fairytale.flac"
+2025-07-25T00:21:51 player: played "The Neighbourhood - Softcore.flac"
+2025-07-25T00:26:27 player: played "Ethan Bortnick - engravings.flac"
+2025-07-25T20:03:46 player: played "Lady Gaga - Die With A Smile.flac"
+2025-07-25T20:06:39 player: played "Ethan Bortnick - engravings.flac"
+2025-07-25T20:09:21 player: played "Sarah Cothran - As the World Caves In.flac"
+2025-07-25T20:13:41 player: played "Env - Anubis.flac"
+2025-07-25T20:19:01 player: played "Beach House - Space Song.flac"
+2025-07-25T20:21:36 player: played "1nonly - Mine.flac"
+2025-07-25T20:24:44 player: played "Bossfight - Milky Ways.flac"
+2025-07-25T20:29:59 player: played "Alexander Rybak - Fairytale.flac"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-25T20:33:17 player: played "Luminary-Joel Sunny.mp3"
+2025-07-25T20:35:19 player: played "Cheriimoya - Living Life, In The Night.flac"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-25T20:38:58 player: played "The Neighbourhood - Softcore.flac"
+2025-07-25T20:42:01 player: played "Jvke - this is what space feels like.flac"
+2025-07-25T20:46:33 player: played "Tin - Ticking.flac"
+2025-07-25T20:49:49 player: played "K-391 - Ignite - Hollaphonic Remix.flac"
+2025-07-25T20:50:07 player: played "Lady Gaga - Abracadabra.flac"
+2025-07-25T23:02:03 player: played "01099 - Glücklich.flac"
+2025-07-25T23:06:31 player: played "Jvke - Worlds Collide (Inspired by Arcane League of Legends).flac"
+2025-07-25T23:08:47 player: played "David Kushner - Daylight.flac"
+2025-07-25T23:18:31 player: played "David Kushner - Daylight.flac"
+2025-07-26T17:36:11 update: added /Duran Duran - INVISIBLE.flac
+2025-07-26T17:36:11 update: added /Duran Duran - INVISIBLE.flac
+2025-07-26T17:36:12 update: added /Duran Duran - INVISIBLE.flac
+2025-07-26T17:37:15 exception: Failed to save database: Failed to commit /home/mario/.config/mpd/database: File exists
+2025-07-26T18:03:40 player: played "David Kushner - Daylight.flac"
+2025-07-26T18:07:49 player: played "Masato Nakamura - Sth1 Green Hill Zone Mega Drive Version.flac"
+2025-07-26T18:11:37 player: played "Jvke - this is what space feels like.flac"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-26T18:14:28 player: played "Ummet Ozcan - Ryu.flac"
+2025-07-26T18:17:37 player: played "Luminary-Joel Sunny.mp3"
+2025-07-26T18:23:54 player: played "Max - STRINGS (feat. JVKE & Bazzi) (Stripped Version).flac"
+2025-07-26T18:31:36 player: played "Env - Anubis.flac"
+2025-07-26T18:31:57 player: played "VALORANT - Die For You.flac"
+2025-07-27T02:01:54 player: played "M83 - Solitude (Felsmann + Tiley Reinterpretation).flac"
+2025-07-27T02:05:27 player: played "VALORANT - Die For You.flac"
+2025-07-27T02:11:19 player: played "Jvke - next to you.flac"
+2025-07-27T02:13:51 player: played "Max - STRINGS (feat. JVKE & Bazzi) (Stripped Version).flac"
+2025-07-27T02:16:17 player: played "01099 - Glücklich.flac"
+2025-07-27T02:19:05 player: played "txmy - Ethereal (Live Strings Version).flac"
+2025-07-27T02:23:16 player: played "Lady Gaga - Die With A Smile.flac"
+[src/libmpg123/id3.c:process_comment():587] error: No comment text / valid description?
+2025-07-27T02:28:25 player: played "Duran Duran - INVISIBLE.flac"
+2025-07-27T02:28:29 player: played "Luminary-Joel Sunny.mp3"
+2025-07-27T17:27:41 playlist: Failed to load "Duran Duran - INVISIBLE.flac".
+2025-07-27T17:31:01 player: played "Bossfight - Milky Ways.flac"
+2025-07-27T17:33:23 player: played "Toby Fox - Attack of the Killer Queen.flac"
+2025-07-27T17:36:05 player: played "Sarah Cothran - As the World Caves In.flac"
+2025-07-27T17:38:25 player: played "Ethan Bortnick - cut my fingers off.flac"
+2025-07-27T17:40:27 player: played "Cheriimoya - Living Life, In The Night.flac"
+2025-07-27T17:43:05 player: played "Jvke - this is what heartbreak feels like.flac"
+2025-07-27T17:48:43 player: played "Bo Burnham - Welcome to The Internet.flac"
+2025-07-27T17:52:16 player: played "David Kushner - Daylight.flac"
+2025-07-27T17:54:30 player: played "Martin Arteta - Past Lives.flac"
+2025-07-27T17:57:18 player: played "txmy - Ethereal (Live Strings Version).flac"
+2025-07-27T17:59:50 player: played "Max - STRINGS (feat. JVKE & Bazzi) (Stripped Version).flac"
+2025-07-27T18:01:42 player: played "Toby Fox - Finale.flac"
+2025-07-27T18:07:03 player: played "Beach House - Space Song.flac"
+2025-07-27T18:10:56 player: played "Bruno Mars - Locked out of Heaven.flac"
+2025-07-27T18:13:20 player: played "01099 - Glücklich.flac"
+2025-07-27T18:17:52 player: played "Tin - Ticking.flac"
+2025-07-27T18:20:46 player: played "Ethan Bortnick - engravings.flac"
+2025-07-27T18:24:58 player: played "Lady Gaga - Die With A Smile.flac"
+2025-07-27T18:28:46 player: played "Bring Me The Horizon - Can You Feel My Heart.flac"
+2025-07-27T18:31:36 player: played "Ummet Ozcan - Ryu.flac"
+2025-07-27T18:34:39 player: played "Jvke - this is what space feels like.flac"
+2025-07-27T18:37:42 player: played "Elton John - I'm Still Standing.flac"
+2025-07-27T18:52:34 player: played "Jvke - next to you.flac"
+2025-07-27T18:55:34 player: played "Mareux - The Perfect Girl (The Motion Retrowave Remix).flac"
+2025-07-27T19:01:10 player: played "The Irrepressibles - In This Shirt.flac"
+2025-07-27T19:04:53 player: played "Lady Gaga - Abracadabra.flac"
+2025-07-27T19:07:47 player: played "KSHMR - Over You (feat. Lovespeake).flac"
+2025-07-27T19:10:56 player: played "Alan Walker - Sing Me to Sleep.flac"
+2025-07-27T19:14:51 player: played "Pixies - Where Is My Mind_ (2007 Remaster).flac"
+2025-07-27T19:21:22 player: played "Jvke - Worlds Collide (Inspired by Arcane League of Legends).flac"
+2025-07-27T19:24:59 player: played "Bruno Mars - Talking to the Moon.flac"
+2025-07-27T19:25:04 player: played "Env - Anubis.flac"
