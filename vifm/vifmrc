@@ -1,0 +1,3 @@
+colorscheme Gruvbox
+set vicmd=$EDITOR
+set nofollowlinks

@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=21:antialias=true:autohint=true";
-static int borderpx = 2;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -124,7 +124,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 	"gray90", /* default foreground colour */
-	"#080F0B", /* default background colour */
+	"#000000", /* default background colour */
 };
 
 /* Background color codes to switch from
@@ -211,7 +211,7 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	{ Mod1Mask,             XK_k,           kscrollup,      {.i = -1} },
-  { Mod1Mask,             XK_j,   	kscrolldown,    {.i = -1} },
+  { Mod1Mask,             XK_j,   	      kscrolldown,    {.i = -1} },
 	{ Mod1Mask, 		XK_a, 		changealpha, 	{.i =  0} },
 };
 

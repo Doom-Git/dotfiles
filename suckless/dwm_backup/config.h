@@ -16,6 +16,14 @@ static const char col_cyan[]        = "#005577";
 static const char col_st_green[]    = "#080F0B";
 static const char col_green[]       = "#00a877";
 static const char col_black[]       = "#000000";
+
+static const char normbgcolor[]           = "#2e3440";
+static const char normbordercolor[]       = "#4c566a";
+static const char normfgcolor[]           = "#d8dee9";
+static const char selfgcolor[]            = "#eceff4";
+static const char selbordercolor[]        = "#a3be8c";
+static const char selbgcolor[]            = "#b48ead";
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray4, col_gray1, col_black },
@@ -57,11 +65,13 @@ static const Layout layouts[] = {
 
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
+#define BROWSER "qutebrowser"
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 //static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
+//static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
+static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbordercolor, "-sf", selfgcolor, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
@@ -70,6 +80,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
   { MODKEY|ShiftMask,             XK_f,      custom_cmd,     {.i = 3} },
   { MODKEY|ControlMask,           XK_l,      custom_cmd,     {.i = 2} },
+  { MODKEY|ShiftMask,			        XK_b,      spawn,          {.v = (const char*[]){ BROWSER, NULL } } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
