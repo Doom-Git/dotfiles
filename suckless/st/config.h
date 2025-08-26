@@ -94,7 +94,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.77;
+float alpha = 0.8; // 0.77
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -121,10 +121,10 @@ static const char *colorname[] = {
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
+	"#add8e6",
 	"#555555",
-	"gray90", /* default foreground colour */
-	"#000000", /* default background colour */
+	"#ebdbb2",
+	"#141414",  // Bg
 };
 
 /* Background color codes to switch from

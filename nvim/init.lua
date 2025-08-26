@@ -1,3 +1,4 @@
+vim = vim
 vim.cmd([[set mouse=]])
 vim.opt.winborder = "rounded"
 vim.opt.hlsearch = false
@@ -18,9 +19,14 @@ vim.g.mapleader = " "
 map('n', '<leader>o', ':update<CR> :source<CR>')
 map('n', '<leader>w', ':write<CR>')
 map('n', '<leader>q', ':quit<CR>')
+map('n', '<leader>lf', vim.lsp.buf.format)
 
 vim.pack.add({
-	{ src = "https://github.com/vague2k/vague.nvim" }
+	{ src = "https://github.com/vague2k/vague.nvim" },
+	{ src = "https://github.com/nvim-treesitter/nvim-treesitter", version = "main" },
+	{ src = "https://github.com/chomosuke/typst-preview.nvim" },
+	{ src = 'https://github.com/neovim/nvim-lspconfig' },
+	{ src = "https://github.com/mason-org/mason.nvim" },
 })
 
 
@@ -28,3 +34,7 @@ vim.pack.add({
 require "vague".setup({ transparent = true })
 vim.cmd("colorscheme vague")
 vim.cmd(":hi statusline guibg=NONE")
+
+require "mason".setup()
+
+vim.lsp.enable({ "lua_ls", "rust-analyzer" })
