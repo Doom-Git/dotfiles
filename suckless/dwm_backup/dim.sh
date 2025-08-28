@@ -7,3 +7,5 @@ if [ -z "$dpy" ]; then
 else
   maim -g 1920x1080 ~/media/pictures/screenshots/$(date +%Y-%m-%d_%H:%M:%S).png
 fi
+
+exec notify-send "Screenshot saved"

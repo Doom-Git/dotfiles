@@ -1,5 +1,6 @@
 colorscheme Gruvbox
 set nofollowlinks
+set vicmd=$EDITOR
 set runexec
 
 " File extensions
@@ -12,7 +13,7 @@ filetype {*.wav,*.mp3,*.flac,*.m4a,*.wma,*.ape,*.ac3,*.og[agx],*.spx,*.opus,
          \*.aac,*.mpga},
         \<audio/*>
        \ {Play using mpv}
-       \ devour mpv --no-video %f %s,
+       \ mpv --no-video %f %s,
 
 " Video
 filextype {*.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
