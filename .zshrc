@@ -70,7 +70,7 @@ fv() {
 			 -e fli -e flc -e flv -e m2v -e mov -e webm -e mts -e m4v -e ram -e qt -e divx \
 			 -e asf -e asx . |
   fzf -m \
-		--preview='ffmpeg -y -loglevel quiet -ss 00:00:03 -i {} -vframes 1 /tmp/preview.png &&
+		--preview='ffmpeg -y -loglevel quiet -ss 00:00:02 -i {} -vframes 1 /tmp/preview.png &&
 		chafa /tmp/preview.png' \
 		--preview-window=down:99% \
 		--bind 'enter:become(mpv {+})'
@@ -79,7 +79,8 @@ fv() {
 fa() { 
 	fd . -e wav -e mp3 -e flac -e m4a -e wma -e ape -e ac3 -e oga -e ogg \
 			 -e ogx -e spx -e opus -e aac -e mpga |
-	fzf -m --preview='' --bind 'enter:become(mpv --no-video {+})'; }
+	fzf -m --preview='' --bind 'enter:become(mpv --no-video {+})';
+}
 
 fp() { 
 	fd . -e pdf |

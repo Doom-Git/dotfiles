@@ -1,10 +1,3 @@
-# Status of what is complete
+Nice little dotfiles that contain a quite simple setup
 
-- [x] Fastfetch
-- [x] Okular
-- [x] Suckless folder (on a very good level)
-- [x] Picom
-- [x] Keepassxc
-- [x] Pipewire
-- [x] Tealdear
-- [] tmux
+The ricing is relativle incomplete and will be done in the future (I hope)
