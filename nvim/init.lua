@@ -34,9 +34,121 @@ vim.pack.add({
 
 
 -- colors
-require "vague".setup({ transparent = true })
-vim.cmd("colorscheme vague")
+-- require "vague".setup({ transparent = true })
+-- vim.cmd("colorscheme vague")
 vim.cmd(":hi statusline guibg=NONE")
+
+-- Gruvbox Dark Color Palette
+local colors = {
+  bg         = "#282828",
+  bg_soft    = "#32302f",
+  fg         = "#ebdbb2",
+  fg_dim     = "#a89984",
+  red        = "#fb4934",
+  green      = "#b8bb26",
+  yellow     = "#fabd2f",
+  blue       = "#83a598",
+  purple     = "#d3869b",
+  aqua       = "#8ec07c",
+  orange     = "#fe8019",
+  gray       = "#928374",
+  dark_gray  = "#3c3836",
+  comment    = "#7c6f64",
+  none       = "NONE",
+}
+
+-- Helper function to set highlights
+local function highlight(group, color)
+  vim.api.nvim_set_hl(0, group, color)
+end
+
+-- Apply highlights
+local function set_highlights()
+  -- Editor basics
+  highlight("Normal",       { fg = colors.fg, bg = "NONE" }) --"#030200"
+  highlight("NormalNC",     { fg = colors.fg_dim, bg = colors.bg })
+  highlight("Visual",       { bg = colors.dark_gray })
+  highlight("CursorLine",   { bg = colors.bg_soft })
+  highlight("CursorColumn", { bg = colors.bg_soft })
+  highlight("LineNr",       { fg = colors.gray, bg = "NONE" })
+  highlight("CursorLineNr", { fg = colors.yellow, bold = true })
+
+  -- Syntax
+  highlight("Comment",      { fg = colors.comment, italic = true })
+  highlight("Constant",     { fg = colors.purple })
+  highlight("String",       { fg = colors.green })
+  highlight("Character",    { fg = colors.orange })
+  highlight("Number",       { fg = colors.orange })
+  highlight("Boolean",      { fg = colors.orange })
+  highlight("Identifier",   { fg = colors.blue })
+  highlight("Function",     { fg = colors.blue })
+  highlight("Statement",    { fg = colors.red })
+  highlight("Conditional",  { fg = colors.red })
+  highlight("Repeat",       { fg = colors.red })
+  highlight("Label",        { fg = colors.red })
+  highlight("Operator",     { fg = colors.fg })
+  highlight("Keyword",      { fg = colors.red })
+  highlight("Exception",    { fg = colors.red })
+
+  highlight("PreProc",      { fg = colors.aqua })
+  highlight("Include",      { fg = colors.aqua })
+  highlight("Define",       { fg = colors.aqua })
+  highlight("Macro",        { fg = colors.aqua })
+
+  highlight("Type",         { fg = colors.yellow })
+  highlight("StorageClass", { fg = colors.yellow })
+  highlight("Structure",    { fg = colors.yellow })
+  highlight("Typedef",      { fg = colors.yellow })
+
+  highlight("Special",      { fg = colors.orange })
+  highlight("SpecialChar",  { fg = colors.orange })
+  highlight("Tag",          { fg = colors.aqua })
+  highlight("Delimiter",    { fg = colors.fg })
+  highlight("SpecialComment", { fg = colors.comment, italic = true })
+
+  highlight("Todo",         { fg = colors.bg, bg = colors.yellow, bold = true })
+
+  -- UI
+  highlight("StatusLine",   { fg = colors.fg, bg = colors.dark_gray })
+  highlight("StatusLineNC", { fg = colors.fg_dim, bg = colors.bg_soft })
+  highlight("VertSplit",    { fg = colors.dark_gray, bg = colors.bg })
+  highlight("Pmenu",        { fg = colors.fg, bg = colors.dark_gray })
+  highlight("PmenuSel",     { fg = colors.bg, bg = colors.blue })
+  highlight("PmenuThumb",   { bg = colors.gray })
+  highlight("PmenuSbar",    { bg = colors.dark_gray })
+
+  highlight("Search",       { fg = colors.bg, bg = colors.yellow, bold = true })
+  highlight("IncSearch",    { fg = colors.bg, bg = colors.orange, bold = true })
+
+  highlight("MatchParen",   { fg = colors.red, bold = true })
+
+  highlight("DiffAdd",      { bg = "#32361a" })
+  highlight("DiffChange",   { bg = "#273641" })
+  highlight("DiffDelete",   { bg = "#3c1f1e" })
+  highlight("DiffText",     { bg = "#45707a" })
+
+  highlight("GitGutterAdd",    { fg = colors.green })
+  highlight("GitGutterChange", { fg = colors.yellow })
+  highlight("GitGutterDelete", { fg = colors.red })
+
+  -- LSP
+  highlight("DiagnosticError", { fg = colors.red })
+  highlight("DiagnosticWarn",  { fg = colors.yellow })
+  highlight("DiagnosticInfo",  { fg = colors.blue })
+  highlight("DiagnosticHint",  { fg = colors.aqua })
+end
+
+-- Apply theme
+local function load()
+  vim.cmd("highlight clear")
+  vim.cmd("syntax reset")
+  vim.o.background = "dark"
+  vim.g.colors_name = "gruvbox_dark"
+
+  set_highlights()
+end
+
+load()
 
 require "mason".setup()
 require "mini.completion".setup({
