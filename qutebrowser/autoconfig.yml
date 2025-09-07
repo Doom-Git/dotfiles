@@ -11,3 +11,5 @@ settings:
     https://github.com: access-paste
   content.notifications.enabled:
     https://www.youtube.com: false
+  content.register_protocol_handler:
+    https://mail.proton.me#mailto=%25s: true

@@ -1,0 +1,17 @@
+# System
+.DS_Store
+._*
+
+# Developer
+.idea
+.vscode
+*.iml
+
+# Project
+/.circleci/.config.yml
+/bin
+/man
+
+# Side-Effects
+/test/data/.config/fish
+/test/data/.local/share/fish

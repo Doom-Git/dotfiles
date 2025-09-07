@@ -1,0 +1,45 @@
+name: Release
+on:
+  push:
+    tags: ['*']
+
+jobs:
+  "Release":
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out sources
+        uses: actions/checkout@v3
+      - name: Install build dependencies
+        uses: ./.github/actions/install-dependencies
+        with:
+          build: true
+          test:  true
+
+      - name: Build
+        uses: ./.github/actions/build
+        with:
+          minify: lib
+          manuals: true
+          verify: true
+          inline: false
+
+      - name: Create zipball
+        run:  bash "${{ github.workspace }}/.github/actions/build/create-zipball.sh"
+
+      - name: Generate changelog
+        id:   changelog
+        run: |
+          output_file="release-notes.md"
+          output_title="Release: $(date '+%Y-%m-%d')"
+
+          bash "${{ github.workspace }}/.github/actions/build/create-release-notes.sh" | tee "${output_file}"
+          echo "file=${output_file}"   >> "$GITHUB_OUTPUT"
+          echo "title=${output_title}" >> "$GITHUB_OUTPUT"
+
+      - name: Create release
+        if: ${{ !env.ACT }}
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "bat-extras-*.zip"
+          bodyFile: "${{steps.changelog.outputs.file}}"
+          name: "${{steps.changelog.outputs.title}}"
