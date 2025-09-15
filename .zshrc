@@ -27,12 +27,13 @@ PS1="%B${bracket_color}["\
 
 # Opts and settings
 setopt autocd
+setopt correct
 
 
 HISTSIZE=100000
 
 # Bat aliases
-alias rb="$HOME/.config/scripts/bat-extras/src/batgrep.sh"
+alias rg="$HOME/.config/scripts/bat-extras/src/batgrep.sh"
 alias man="$HOME/.config/scripts/bat-extras/src/batman.sh"
 alias bd="$HOME/.config/scripts/bat-extras/src/batdiff.sh"
 alias cat="bat"
@@ -62,6 +63,7 @@ alias zat="d zathura"
 alias tc="typst compile"
 alias tw="typst watch"
 alias rm="rm -rvf"
+alias fehbg="feh --no-fehbg --bg-fill --randomize ~/media/pictures/wallpaper/2560x1440/*"
 
 fn() { fzf -m --preview='bat --color=always {}' --bind 'enter:become($HOME/nvim-linux-x86_64/bin/nvim {+})'; }
 

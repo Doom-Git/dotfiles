@@ -34,9 +34,11 @@ vim.pack.add({
 
 
 -- colors
--- require "vague".setup({ transparent = true })
--- vim.cmd("colorscheme vague")
 vim.cmd(":hi statusline guibg=NONE")
+
+--vim.cmd([[
+--  autocmd BufWritePost config.h !sudo make install
+--]])
 
 -- Gruvbox Dark Color Palette
 local colors = {

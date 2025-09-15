@@ -3,7 +3,7 @@ FullScreen=false
 
 [General]
 LockSidebar=true
-ShowSidebar=true
+ShowSidebar=false
 
 [Recent Files]
 File1[$e]=$HOME/Adf2xPro2xA08 VZ.pdf
@@ -11,11 +11,13 @@ File2[$e]=$HOME/Downloads/├Ьbungszettel_3.pdf
 File3[$e]=$HOME/Downloads/├Ьbungszettel_4.pdf
 File4[$e]=$HOME/Downloads/Sönke Ahrens - How to Take Smart Notes_ One Simple Technique to Boost Writing, Learning and Thinking - For Students, Academics and Nonfiction (2017, Createspace Independent Publishing Platform) - libgen.li.epub
 File5[$e]=$HOME/zsh/zsh-syntax-highlighting/COPYING.md
+File6[$e]=$HOME/Downloads/EIR-Klausur-2016.pdf
 Name1[$e]=Adf2xPro2xA08 VZ.pdf
 Name2[$e]=├Ьbungszettel_3.pdf
 Name3[$e]=├Ьbungszettel_4.pdf
 Name4[$e]=Sönke Ahrens - How to Take Smart Notes_ One Simple Technique to Boost Writing, Learning and Thinking - For Students, Academics and Nonfiction (2017, Createspace Independent Publishing Platform) - libgen.li.epub
 Name5[$e]=COPYING.md
+Name6[$e]=EIR-Klausur-2016.pdf
 
 [UiSettings]
 ColorScheme=Breeze Dunkel

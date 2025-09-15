@@ -11,7 +11,7 @@ c.tabs.show = "multiple"
 c.colors.webpage.darkmode.enabled = True
 c.colors.webpage.darkmode.algorithm = 'lightness-cielab'
 c.colors.webpage.darkmode.policy.images = 'never'
-config.set('colors.webpage.darkmode.enabled', False, 'file://*')
+config.set('colors.webpage.darkmode.enabled', True, 'file://*')
 config.set('colors.webpage.darkmode.enabled', True)
 
 # styles, cosmetics
@@ -22,12 +22,12 @@ c.tabs.indicator.width = 0 # no tab indicators
 c.tabs.width = '7%'
 
 # fonts
-c.fonts.default_family = []
-c.fonts.default_size = '13pt'
-c.fonts.web.family.fixed = 'monospace'
-c.fonts.web.family.sans_serif = 'monospace'
-c.fonts.web.family.serif = 'monospace'
-c.fonts.web.family.standard = 'monospace'
+c.fonts.default_family = "Iosevka Nerd Font Propo"
+c.fonts.default_size = '14pt'
+#c.fonts.web.family.fixed = 'monospace'
+#c.fonts.web.family.sans_serif = 'monospace'
+#c.fonts.web.family.serif = 'monospace'
+#c.fonts.web.family.standard = 'monospace'
 
 # privacy - adjust these settings based on your preference
 # config.set("completion.cmd_history_max_items", 0)
