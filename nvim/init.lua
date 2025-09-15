@@ -186,4 +186,4 @@ require "mini.completion".setup({
 	},
 })
 
-vim.lsp.enable({ "lua_ls", "rust-analyzer", "gopls" })
+vim.lsp.enable({ "lua_ls", "rust-analyzer" })

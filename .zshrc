@@ -7,7 +7,6 @@ compinit
 # End of lines added by compinstall
 
 # Exports
-export VIFM="$HOME/.config/vifm/"
 export EDITOR="$HOME/nvim-linux-x86_64/bin/nvim"
 export PASTEL_COLOR_MODE="24bit"
 export JAVA_HOME="/usr/lib/jvm/openjdk21/"

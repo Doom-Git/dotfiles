@@ -77,15 +77,22 @@ static const char mic[] = "volume=`wpctl get-volume @DEFAULT_SOURCE@ | awk '{pri
                             else printf \"󰍭\"; \
                             fi";
 
+static const char timew[] = "\
+  if [ $(timew get dom.active) -eq 0 ]; then \
+    printf \"STOP\"; \
+  else \
+    printf %s $(timew get dom.active.tag.1); \
+  fi";
 
 
 
 static const struct arg args[] = {
 	/* function format            argument */
-  { run_command   , " [%s] "            , vol },
-  { run_command   , " [%s] "            , mic },
+  { run_command   , " [%s] "            , timew	 },
+  { run_command   , " [%s] "            , vol 	 },
+  { run_command   , " [%s] "            , mic 	 },
   { ram_perc      , " [ %s%%] "        , NULL   },
   { cpu_perc      , " [ %s%%] "        , NULL   },
-  { datetime      , " %s "              , "%d-%m %T"   },
-  { battery_perc  , " [ %s%%]   "      , "BAT1" },
+  { datetime      , " %s "              , "%T"   },
+  { battery_perc  , " [ %s%%]   "      , "BAT0" },
 };
