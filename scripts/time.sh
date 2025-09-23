@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-timemode=(LEARN PROGRAMMING WASTED LECTURE VIMING STOP)
+timemode=(TESTING WORK WASTED LECTURE LINUX STOP)
 mode=$(printf '%s\n' ${timemode[@]} | dmenu -i -l 10 -p 'Timemode: ')
 
 if [ $mode = "STOP" ];

@@ -32,7 +32,6 @@ setopt correct
 HISTSIZE=100000
 
 # Bat aliases
-alias rg="$HOME/.config/scripts/bat-extras/src/batgrep.sh"
 alias man="$HOME/.config/scripts/bat-extras/src/batman.sh"
 alias bd="$HOME/.config/scripts/bat-extras/src/batdiff.sh"
 alias cat="bat"
@@ -52,6 +51,7 @@ alias nc=ncmpcpp
 alias v="$HOME/nvim-linux-x86_64/bin/nvim"
 alias sol="wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
 alias soh="wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
+alias mpc="mpc -p 6492"
 alias mpl="mpc -p 6492 load Standart"
 alias mpu="mpc -p 6492 update"
 alias ac=ani-cli
