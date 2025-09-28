@@ -31,7 +31,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "󰈹", "󰎆", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "󰈹", "󰎆", "", "5", "6", "7", "8", "󱜏" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -40,6 +40,9 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Firefox",      NULL,   "Firefox",  1 << 1,       0,           -1 },
+	{ "gl",      	  NULL,   "MPV",  		1 << 8,       0,           -1 },
+	{ "Discord",   	  NULL,   "vesktop",  1 << 3,       0,           -1 },
+
 };
 
 /* layout(s) */
@@ -67,6 +70,7 @@ static const Layout layouts[] = {
 /* key definitions */
 #define WINKEY Mod1Mask //Alt
 #define MODKEY Mod4Mask //Win
+#define DMENU_MOD Mod4Mask|Mod1Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -83,7 +87,6 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-//static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *dmenucmd[] = { "dmenu_run", "-l", "10", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
 static const char *termcmd[]  = { "st", NULL };
 
@@ -91,9 +94,10 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-  { MODKEY|ShiftMask,             XK_f,      spawn,     		 SHCMD("~/.config/scripts/dim.sh") },
-	{ MODKEY|ShiftMask, 						XK_t,			 spawn,					 SHCMD("~/.config/scripts/time.sh") },
-  { MODKEY|ControlMask,           XK_l,      spawn,          SHCMD("cd ~/.config/suckless/slock/ && slock") },
+  { DMENU_MOD,   		              XK_f,      spawn,     		 SHCMD("$HOME/.config/scripts/dim.sh") },
+	{ DMENU_MOD, 						 				XK_t,			 spawn,					 SHCMD("$HOME/.config/scripts/time.sh") },
+	{ DMENU_MOD,										XK_a, 		 spawn,					 SHCMD("$HOME/projects/ani-cli/ani-cli --dmenu") },
+  { MODKEY|ControlMask,           XK_l,      spawn,          SHCMD("cd $HOME/.config/suckless/slock/ && slock") },
   { MODKEY|ShiftMask,			        XK_b,      spawn,          {.v = (const char*[]){ BROWSER, NULL } } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },

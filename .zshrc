@@ -27,6 +27,12 @@ PS1="%B${bracket_color}["\
 # Opts and settings
 setopt autocd
 setopt correct
+setopt auto_param_slash # when a dir is completed, add a / instead of a trailing space
+setopt globdots # include dotfiles
+setopt extended_glob # match ~ # ^
+setopt interactive_comments # allow comments in shell
+unsetopt prompt_sp # don't autoclean blanklines
+stty stop undef # disable accidental ctrl s
 
 
 HISTSIZE=100000
@@ -47,7 +53,6 @@ alias remove="sudo xbps-remove -R"
 alias ff="fastfetch --pipe false --config ~/.config/fastfetch/config.jsonc"
 alias shut="sudo shutdown -f -h now"
 alias mi="sudo make install"
-alias nc=ncmpcpp
 alias v="$HOME/nvim-linux-x86_64/bin/nvim"
 alias sol="wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
 alias soh="wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
@@ -63,6 +68,7 @@ alias tc="typst compile"
 alias tw="typst watch"
 alias rm="rm -rvf"
 alias fehbg="feh --no-fehbg --bg-fill --randomize ~/media/pictures/wallpaper/2560x1440/*"
+alias pc="peaclock --config-dir=$HOME/.config/peaclock/"
 
 fn() { fzf -m --preview='bat --color=always {}' --bind 'enter:become($HOME/nvim-linux-x86_64/bin/nvim {+})'; }
 
@@ -90,17 +96,14 @@ fp() {
 
 fim() {
   fd . -e jpg -e jpeg -e png -e gif -e webp -e bmp -e xpm -i |
-    fzf -m \
-        --preview='chafa {}' \
-				--preview-window=down:99% \
-    		--layout=reverse \
+    fzf	--layout=reverse \
     		--border \
         --bind 'enter:become(devour nsxiv -t {+})'
 }
 
 
 # Startup
-ac -U
+ani-cli -U
 clear
 ff 
 cowsay Enter the void!
