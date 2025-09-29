@@ -11,4 +11,6 @@ qutebrowser
 keepassxc
 kdeglobals
 pulse
-vesktop/
+vesktop/Crashpad/
+vesktop/state.json
+vesktop/sessionData/
