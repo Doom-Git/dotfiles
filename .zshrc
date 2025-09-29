@@ -69,6 +69,7 @@ alias tw="typst watch"
 alias rm="rm -rvf"
 alias fehbg="feh --no-fehbg --bg-fill --randomize ~/media/pictures/wallpaper/2560x1440/*"
 alias pc="peaclock --config-dir=$HOME/.config/peaclock/"
+alias fipr="ps aux | rg "
 
 fn() { fzf -m --preview='bat --color=always {}' --bind 'enter:become($HOME/nvim-linux-x86_64/bin/nvim {+})'; }
 

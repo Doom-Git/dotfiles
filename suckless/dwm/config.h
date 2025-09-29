@@ -2,7 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx  = 2;        /* border pixel of windows */
-static const unsigned int gappx     = 2;        /* gap pixel between windows */
+static const unsigned int gappx     = 28;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
@@ -17,17 +17,15 @@ static const char col_st_green[]    = "#080F0B";
 static const char col_green[]       = "#00a877";
 static const char col_black[]       = "#000000";
 
-static const char normbgcolor[]           = "#2e3440";
-static const char normbordercolor[]       = "#4c566a";
-static const char normfgcolor[]           = "#d8dee9";
-static const char selfgcolor[]            = "#eceff4";
-static const char selbordercolor[]        = "#a3be8c";
-static const char selbgcolor[]            = "#b48ead";
+static const char col_fg[]      = "#ebdbb2";  // Light1
+static const char col_bg2[]     = "#282828";  // Dark0
+static const char col_sel[]     = "#d65d0e";  // Orange
+static const char col_border[]  = "#458588";  // Blue (gut sichtbar für Rand)
 
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray4, col_gray1, col_cyan },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan },
+static const char *colors[][3] = {
+    /*               fg        bg        border    */
+    [SchemeNorm] = { col_fg,   col_bg2,  col_bg2   },  // normale Leiste
+    [SchemeSel]  = { col_fg,   col_sel,  col_border }, // ausgewähltes Fenster
 };
 
 /* tagging */
@@ -40,8 +38,10 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Firefox",      NULL,   "Firefox",  1 << 1,       0,           -1 },
-	{ "gl",      	  NULL,   "MPV",  		1 << 8,       0,           -1 },
+	{ "gl",      	    NULL,   "mpv",  		1 << 8,      -1,           -1 },
+	{ "mpv",     	    NULL,   "mpv",  		1 << 8,       0,           -1 },
 	{ "Discord",   	  NULL,   "vesktop",  1 << 3,       0,           -1 },
+	{ "vesktop",   	  NULL,   "vesktop",  1 << 3,       0,           -1 },
 
 };
 
@@ -87,7 +87,18 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "dmenu_run", "-l", "10", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
+//static const char *dmenucmd[] = { "dmenu_run", "-l", "10", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
+static const char *dmenucmd[] = { 
+    "dmenu_run", 
+    "-l", "10", 
+    "-m", dmenumon, 
+    "-fn", dmenufont, 
+    "-nb", "#282828",  // Hintergrund (normal) – Gruvbox bg0
+    "-nf", "#ebdbb2",  // Textfarbe (normal) – Gruvbox fg
+    "-sb", "#458588",  // Hintergrund (ausgewählt) – Gruvbox blue
+    "-sf", "#282828",  // Textfarbe (ausgewählt) – Gruvbox bg0
+    NULL 
+};
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
@@ -125,6 +136,9 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
+	{ MODKEY,                       XK_plus,   setgaps,        {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

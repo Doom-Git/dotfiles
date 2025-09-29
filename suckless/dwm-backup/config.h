@@ -17,21 +17,19 @@ static const char col_st_green[]    = "#080F0B";
 static const char col_green[]       = "#00a877";
 static const char col_black[]       = "#000000";
 
-static const char normbgcolor[]           = "#2e3440";
-static const char normbordercolor[]       = "#4c566a";
-static const char normfgcolor[]           = "#d8dee9";
-static const char selfgcolor[]            = "#eceff4";
-static const char selbordercolor[]        = "#a3be8c";
-static const char selbgcolor[]            = "#b48ead";
+static const char col_fg[]      = "#ebdbb2";  // Light1
+static const char col_bg2[]     = "#282828";  // Dark0
+static const char col_sel[]     = "#d65d0e";  // Orange
+static const char col_border[]  = "#458588";  // Blue (gut sichtbar für Rand)
 
-static const char *colors[][3]      = {
-	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray4, col_gray1, col_cyan },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan },
+static const char *colors[][3] = {
+    /*               fg        bg        border    */
+    [SchemeNorm] = { col_fg,   col_bg2,  col_bg2   },  // normale Leiste
+    [SchemeSel]  = { col_fg,   col_sel,  col_border }, // ausgewähltes Fenster
 };
 
 /* tagging */
-static const char *tags[] = { "", "󰈹", "󰎆", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "", "󰈹", "󰎆", "", "5", "6", "7", "8", "󱜏" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -40,6 +38,11 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Firefox",      NULL,   "Firefox",  1 << 1,       0,           -1 },
+	{ "gl",      	    NULL,   "mpv",  		1 << 8,      -1,           -1 },
+	{ "mpv",     	    NULL,   "mpv",  		1 << 8,       0,           -1 },
+	{ "Discord",   	  NULL,   "vesktop",  1 << 3,       0,           -1 },
+	{ "vesktop",   	  NULL,   "vesktop",  1 << 3,       0,           -1 },
+
 };
 
 /* layout(s) */
@@ -67,6 +70,7 @@ static const Layout layouts[] = {
 /* key definitions */
 #define WINKEY Mod1Mask //Alt
 #define MODKEY Mod4Mask //Win
+#define DMENU_MOD Mod4Mask|Mod1Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -79,19 +83,32 @@ static const Layout layouts[] = {
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
 #define BROWSER "firefox"
 
+#define STATUSBAR "dwmblocks"
+
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-//static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *dmenucmd[] = { "dmenu_run", "-l", "10", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
+//static const char *dmenucmd[] = { "dmenu_run", "-l", "10", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, NULL, col_cyan, NULL, col_gray4, NULL };
+static const char *dmenucmd[] = { 
+    "dmenu_run", 
+    "-l", "10", 
+    "-m", dmenumon, 
+    "-fn", dmenufont, 
+    "-nb", "#282828",  // Hintergrund (normal) – Gruvbox bg0
+    "-nf", "#ebdbb2",  // Textfarbe (normal) – Gruvbox fg
+    "-sb", "#458588",  // Hintergrund (ausgewählt) – Gruvbox blue
+    "-sf", "#282828",  // Textfarbe (ausgewählt) – Gruvbox bg0
+    NULL 
+};
 static const char *termcmd[]  = { "st", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-  { MODKEY|ShiftMask,             XK_f,      spawn,     		 SHCMD("~/.config/scripts/dim.sh") },
-	{ MODKEY|ShiftMask, 						XK_t,			 spawn,					 SHCMD("~/.config/scripts/time.sh") },
-  { MODKEY|ControlMask,           XK_l,      spawn,          SHCMD("cd ~/.config/suckless/slock/ && slock") },
+  { DMENU_MOD,   		              XK_f,      spawn,     		 SHCMD("$HOME/.config/scripts/dim.sh") },
+	{ DMENU_MOD, 						 				XK_t,			 spawn,					 SHCMD("$HOME/.config/scripts/time.sh") },
+	{ DMENU_MOD,										XK_a, 		 spawn,					 SHCMD("$HOME/projects/ani-cli/ani-cli --dmenu") },
+  { MODKEY|ControlMask,           XK_l,      spawn,          SHCMD("cd $HOME/.config/suckless/slock/ && slock") },
   { MODKEY|ShiftMask,			        XK_b,      spawn,          {.v = (const char*[]){ BROWSER, NULL } } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
@@ -142,7 +159,9 @@ static const Button buttons[] = {
 	{ ClkMonNum,            0,              Button3,        focusmon,       {.i = -1} },
 	{ ClkMonNum,            0,              Button2,        reset_view,     {0} },
   { ClkWinTitle,          0,              Button2,        zoom,           {0} },
-	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
+	{ ClkStatusText,        0,              Button1,        sigstatusbar,   {.i = 1} },
+	{ ClkStatusText,        0,              Button2,        sigstatusbar,   {.i = 2} },
+	{ ClkStatusText,        0,              Button3,        sigstatusbar,   {.i = 3} },
 	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
 	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
 	{ ClkClientWin,         MODKEY,         Button3,        resizemouse,    {0} },
