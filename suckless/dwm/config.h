@@ -105,7 +105,7 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
-  { DMENU_MOD,   		              XK_f,      spawn,     		 SHCMD("$HOME/.config/scripts/dim.sh") },
+  { MODKEY|ShiftMask,             XK_f,      spawn,     		 SHCMD("$HOME/.config/scripts/dim.sh") },
 	{ DMENU_MOD, 						 				XK_t,			 spawn,					 SHCMD("$HOME/.config/scripts/time.sh") },
 	{ DMENU_MOD,										XK_a, 		 spawn,					 SHCMD("$HOME/projects/ani-cli/ani-cli --dmenu") },
   { MODKEY|ControlMask,           XK_l,      spawn,          SHCMD("cd $HOME/.config/suckless/slock/ && slock") },
