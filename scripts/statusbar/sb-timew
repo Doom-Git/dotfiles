@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $(timew get dom.active) -eq 0 ];
+then
+    echo "STOP";
+else
+    echo "$(timew get dom.active.tag.1) $(timew | rg Total | awk '{print $2}')";
+fi

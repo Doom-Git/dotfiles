@@ -1,0 +1,29 @@
+#!/bin/sh
+
+mpc_cmd="mpc -p 6492"
+mpl_cmd="$mpc_cmd load Standart"
+
+if ! $mpc_cmd >/dev/null 2>&1; then
+	mpd
+	$mpl_cmd
+fi
+
+if $mpc_cmd >/dev/null 2>&1; then
+	case "$BLOCK_BUTTON" in
+		1)	$mpc_cmd toggle ;;
+		2)	$mpc_cmd prev ;;
+		3)	$mpc_cmd next ;;
+	esac
+	mpc_output="$($mpc_cmd)"
+	current_song="$($mpc_cmd -f '%artist%' | head -n1)"
+
+	if echo "$mpc_output" | rg -F -q "[paused]"; then
+		echo "  $($mpc_cmd -f '%title%' | cut -c1-25 | head -n1) - $current_song"
+	elif echo "$mpc_output" | rg -F -q "[playing]"; then
+    echo " 󰝚 $($mpc_cmd -f '%title%' | cut -c1-20 | head -n1)"
+	else
+    echo "No music"
+fi
+else
+	echo "No music"
+fi
