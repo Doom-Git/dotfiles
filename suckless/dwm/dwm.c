@@ -1978,16 +1978,18 @@ tile(Monitor *m)
 	if (n > m->nmaster) mw = m->nmaster ? m->ww * m->mfact : 0;
 	else mw = m->ww - m->gappx;
 	
+	int hgap = m->gappx / 2;
+
 	for (i = my = ty = 0, c = nexttiled(m->clients); c; c = nexttiled(c->next), i++) {
 			if (i < m->nmaster) {
 				h = (m->wh - my) / (MIN(n, m->nmaster) - i) - m->gappx;
-				resize(c, m->wx + m->gappx, m->wy + (m->gappx / 2), mw - (2*c->bw) - m->gappx, h - (2*c->bw), 0);
-				if (my + HEIGHT(c) + m->gappx < m->wh) my += HEIGHT(c) + m->gappx;
+				resize(c, m->wx + hgap, m->wy + hgap, mw - (2*c->bw) - 2*m->gappx, h - (2*c->bw), 0);
+				if (my + HEIGHT(c) + m->gappx < m->wh) my += HEIGHT(c) + hgap;
 		} else {
 			h = (m->wh - ty) / (n - i) - m->gappx;
-			resize(c, m->wx + mw + m->gappx, m->wy + ty + (m->gappx / 2), m->ww - mw - (2*c->bw) - 2*m->gappx, h - (2*c->bw), 0); // Ty -> Gap on the bottom
-			if (ty + HEIGHT(c) + m->gappx < m->wh)
-				ty += HEIGHT(c) + m->gappx; // Gap between windows
+			resize(c, m->wx + mw + (m->gappx / 2), m->wy + ty + (m->gappx / 2), m->ww - mw - (2*c->bw) - m->gappx, h - (2*c->bw), 0); // Ty -> Gap on the bottom
+			if (ty + HEIGHT(c) + (m->gappx / 2) < m->wh)
+				ty += HEIGHT(c) + (m->gappx / 2); // Gap between windows
 		}
 	}
 
