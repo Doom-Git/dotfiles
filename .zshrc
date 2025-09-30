@@ -107,6 +107,6 @@ fim() {
 ani-cli -U
 clear
 ff 
-cowsay Enter the void!
+cowsay -e "~0" Enter the void!
 source ~/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 echo
