@@ -95,9 +95,8 @@ static const char *dmenucmd[] = {
     "-fn", dmenufont, 
     "-nb", "#282828",  // Hintergrund (normal) – Gruvbox bg0
     "-nf", "#ebdbb2",  // Textfarbe (normal) – Gruvbox fg
-    "-sb", "#458588",  // Hintergrund (ausgewählt) – Gruvbox blue
+    "-sb", "#d65d0e",  // Hintergrund (ausgewählt) – Gruvbox blue
     "-sf", "#282828",  // Textfarbe (ausgewählt) – Gruvbox bg0
-    NULL 
 };
 static const char *termcmd[]  = { "st", NULL };
 

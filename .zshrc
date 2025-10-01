@@ -41,6 +41,7 @@ HISTSIZE=100000
 alias man="$HOME/.config/scripts/bat-extras/src/batman.sh"
 alias bd="$HOME/.config/scripts/bat-extras/src/batdiff.sh"
 alias cat="bat"
+alias dmenuc="dmenu -nb '#282828' -nf '#ebdbb2' -sb '#d65d0e' -sf '#282828'"
 
 alias fzf="fzf --preview 'bat --color=always --style=numbers --line-range=:500 {}'"
 alias qp="xbps-query -Rs"
